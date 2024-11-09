@@ -13,6 +13,8 @@ $white: #fff;
 $orange: #cc8400;
 
 $breakpoint: 767px;
+$gutter: 1em;
+$gutter-half: calc($gutter / 2);
 
 body {
 	font-family: sans-serif;
@@ -24,7 +26,7 @@ body {
 .container {
   max-width: 1500px;
   margin: auto;
-  padding: 0 1em;
+  padding: 0 $gutter;
   line-height: 1.5em;
 
   h1 {
@@ -37,18 +39,18 @@ body {
   }
 
   section {
-    margin: 1em auto;
+    margin: $gutter auto;
   }
 }
 
 nav {
-  margin-top: 1em;
+  margin-top: $gutter;
   margin-bottom: 3em;
 
   ul {
     li {
       display: inline-block;
-      margin-right: 1em;
+      margin-right: $gutter;
   
       a {
         text-decoration: none;
@@ -78,7 +80,25 @@ $project-height: 400px;
 .projects {
   .project {
     height: $project-height;
-    padding: 0.8em;
+    padding-bottom: $gutter;
+    
+    @media (min-width: $breakpoint) {
+      // 4, 7, 10, ... (lefts)
+      &:nth-child(3n+4), &:first-child {
+        padding-right: $gutter-half;
+      }
+
+      // 3, 6, 9, ... (rights)
+      &:nth-child(3n+3) {
+        padding-left: $gutter-half;
+      }
+
+      // 2, 5, 8, ... (middles)
+      &:nth-child(3n+2) {
+        padding-left: $gutter-half;
+        padding-right: $gutter-half;
+      }
+    }
     
     .clip {
       overflow: hidden;
@@ -124,20 +144,20 @@ $project-height: 400px;
 .images {
   .image-container {
     .image {
-      padding-bottom: 1em;
-      
+      padding-bottom: $gutter;
+
       @media (min-width: $breakpoint) {
         &:first-child {
-          padding-right: 0.5em;
+          padding-right: $gutter-half;
         }
 
         &:not(:first-child):not(:last-child) {
-          padding-left: 0.5em;
-          padding-right: 0.5em;
+          padding-left: $gutter-half;
+          padding-right: $gutter-half;
         }
 
         &:last-child {
-          padding-left: 0.5em;
+          padding-left: $gutter-half;
         }   
         
         &:only-child {
