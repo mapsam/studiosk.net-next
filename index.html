@@ -1,0 +1,22 @@
+---
+layout: default
+name: index
+---
+
+<div id="centered">
+  <a href="{{site.url}}/projects" id="ssk">s<span id="underscore">_</span>sk</a>
+</div>
+
+<script>
+blink();
+// blinking s_sk on front-page.php
+var totalTime = 3000;
+var elapsed = 0;
+function blink() {
+  setInterval(function(){
+    $('#underscore').toggleClass('trans');
+    elapsed+=500;
+    if (elapsed >= totalTime) window.location.href='/projects';
+  }, 500);
+}
+</script>

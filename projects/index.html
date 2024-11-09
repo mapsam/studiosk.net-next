@@ -1,0 +1,16 @@
+---
+layout: default
+title: projects
+---
+
+<section class="projects">
+  <div class="pure-g">
+    {% for p in site.categories.projects %}
+    {% if p.hidden != true %}
+    <div class="pure-u-md-1-3 project">
+      <img class="pure-img" src="{{site.url}}{{p.featured_image}}">
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
