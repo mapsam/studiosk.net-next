@@ -12,6 +12,8 @@ $light-gray: #c0c0c0;
 $white: #fff;
 $orange: #cc8400;
 
+$breakpoint: 767px;
+
 body {
 	font-family: sans-serif;
   font-size: 1.1em;
@@ -22,6 +24,7 @@ body {
 .container {
   max-width: 1500px;
   margin: auto;
+  padding: 0 1em;
   line-height: 1.5em;
 
   h1 {
@@ -72,12 +75,6 @@ nav {
 }
 
 $project-height: 400px;
-
-// .content {
-//   max-width: 1200px;
-//   margin: auto;
-// }
-
 .projects {
   .project {
     height: $project-height;
@@ -127,7 +124,27 @@ $project-height: 400px;
 .images {
   .image-container {
     .image {
-      padding: 1em;
+      padding-bottom: 1em;
+      
+      @media (min-width: $breakpoint) {
+        &:first-child {
+          padding-right: 0.5em;
+        }
+
+        &:not(:first-child):not(:last-child) {
+          padding-left: 0.5em;
+          padding-right: 0.5em;
+        }
+
+        &:last-child {
+          padding-left: 0.5em;
+        }   
+        
+        &:only-child {
+          padding-right: 0em;
+          padding-left: 0em;
+        }
+      }
       
       img {
         min-width: 100%;
