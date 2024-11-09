@@ -18,9 +18,12 @@ specs:
     value: "MEKA"
 
 images:
-  - /img/2017/10/1_ViewFromCreek-crop.jpg
-  - /img/2017/10/2_ViewFromDriveway-crop.jpg
-  - /img/2017/10/3_ViewAerial-crop1.jpg
+  - imgs: 
+    - /img/2017/10/1_ViewFromCreek-crop.jpg
+  - imgs: 
+    - /img/2017/10/2_ViewFromDriveway-crop.jpg
+  - imgs: 
+    - /img/2017/10/3_ViewAerial-crop1.jpg
 ---
 
 Adding a duplex to an existing single family house site, the project aims to add density while maintaining the overall wooded and open quality of the site.

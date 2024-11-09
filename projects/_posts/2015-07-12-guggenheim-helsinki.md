@@ -18,13 +18,20 @@ specs:
     value: "Christopher Warren, Carmelia Chiang, Vera Tay (Warren Office of Research & Design); Karly Stephens,  Pedram Farashbandi (S_SK); Brennan Cox & Sara Peschel (Landscape – Groundworks Office); Derrick Roorda   (Structural – Buro Happold); Heather Libonati (Lighting – Luminesce Design)."
 
 images:
-  - /img/2015/07/HELSINKI_1.jpg
-  - /img/2015/07/HELSINKI_2.jpg
-  - /img/2015/07/HELSINKI_3.jpg
-  - /img/2015/07/HELSINKI_4.jpg
-  - /img/2015/07/HELSINKI_5.jpg
-  - /img/2015/07/HELSINKI_6.jpg
-  - /img/2015/07/HELSINKI_7.jpg
+  - imgs: 
+    - /img/2015/07/HELSINKI_1.jpg
+  - imgs: 
+    - /img/2015/07/HELSINKI_2.jpg
+  - imgs: 
+    - /img/2015/07/HELSINKI_3.jpg
+  - imgs: 
+    - /img/2015/07/HELSINKI_4.jpg
+  - imgs: 
+    - /img/2015/07/HELSINKI_5.jpg
+  - imgs: 
+    - /img/2015/07/HELSINKI_6.jpg
+  - imgs: 
+    - /img/2015/07/HELSINKI_7.jpg
 ---
 
 Continuing in the exploratory spirit of Nordic Modernism, the museum is envisioned as a public place to celebrate art in the northern light of Finland.

@@ -8,17 +8,28 @@ date: 2020-01-10 00:00:00
 featured_image: /img/2020/04/malin_goetz_sf_featured.jpg
 
 images:
-  - /img/2020/04/malin_goetz_sf__10.jpg
-  - /img/2020/04/malin_goetz_sf__00.jpg
-  - /img/2020/04/malin_goetz_sf__01.jpg
-  - /img/2020/04/malin_goetz_sf__02.jpg
-  - /img/2020/04/malin_goetz_sf__03.jpg
-  - /img/2020/04/malin_goetz_sf__04.jpg
-  - /img/2020/04/malin_goetz_sf__05.jpg
-  - /img/2020/04/malin_goetz_sf__06.jpg
-  - /img/2020/04/malin_goetz_sf__07.jpg
-  - /img/2020/04/malin_goetz_sf__08.jpg
-  - /img/2020/04/malin_goetz_sf__09.jpg
+  - imgs: 
+    - /img/2020/04/malin_goetz_sf__10.jpg
+  - imgs: 
+    - /img/2020/04/malin_goetz_sf__00.jpg
+  - imgs: 
+    - /img/2020/04/malin_goetz_sf__01.jpg
+  - imgs: 
+    - /img/2020/04/malin_goetz_sf__02.jpg
+  - imgs: 
+    - /img/2020/04/malin_goetz_sf__03.jpg
+  - imgs: 
+    - /img/2020/04/malin_goetz_sf__04.jpg
+  - imgs: 
+    - /img/2020/04/malin_goetz_sf__05.jpg
+  - imgs: 
+    - /img/2020/04/malin_goetz_sf__06.jpg
+  - imgs: 
+    - /img/2020/04/malin_goetz_sf__07.jpg
+  - imgs: 
+    - /img/2020/04/malin_goetz_sf__08.jpg
+  - imgs: 
+    - /img/2020/04/malin_goetz_sf__09.jpg
 
 specs:
   - key: project

@@ -22,14 +22,22 @@ specs:
     value: "CCS Architecture"
 
 images:
-  - /img/2014/11/TESLA-01.jpg
-  - /img/2014/11/TESLA-02.jpg
-  - /img/2014/11/TESLA-03.jpg
-  - /img/2014/11/TESLA-04.jpg
-  - /img/2014/11/TESLA-05.jpg
-  - /img/2014/11/TESLA-06.jpg
-  - /img/2014/11/TESLA-07.jpg
-  - /img/2014/11/TESLA-08.jpg
+  - imgs: 
+    - /img/2014/11/TESLA-01.jpg
+  - imgs: 
+    - /img/2014/11/TESLA-02.jpg
+  - imgs: 
+    - /img/2014/11/TESLA-03.jpg
+  - imgs: 
+    - /img/2014/11/TESLA-04.jpg
+  - imgs: 
+    - /img/2014/11/TESLA-05.jpg
+  - imgs: 
+    - /img/2014/11/TESLA-06.jpg
+  - imgs: 
+    - /img/2014/11/TESLA-07.jpg
+    - /img/2014/11/TESLA-08.jpg
+  
 ---
 
 Flagship Showroom and Service Center for the Tesla electric car company housed in a pair of upcycled buildings, merged to create a clean and gallery-like setting for the display and servicing of the cars.

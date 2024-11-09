@@ -22,10 +22,14 @@ specs:
     value: "Designer"
 
 images:
-  - /img/2015/01/milpitas_3.jpg
-  - /img/2015/01/milpitas_1.jpg
-  - /img/2015/01/milpitas_2.jpg
-  - /img/2015/01/milpitas_4.jpg
+  - imgs: 
+    - /img/2015/01/milpitas_3.jpg
+  - imgs: 
+    - /img/2015/01/milpitas_1.jpg
+  - imgs: 
+    - /img/2015/01/milpitas_2.jpg
+  - imgs: 
+    - /img/2015/01/milpitas_4.jpg
 ---
 
 The city of Milpitas converted the site of a former library into a senior community center. The center is focused on the park-like landscape, allowing for direct connection to the outdoors from all public spaces.  This flexible and open layout allows for various activities including recreation, learning, socializing, and counseling determined by the users and programmed events.

@@ -8,7 +8,10 @@ title: projects
     {% for p in site.categories.projects %}
     {% if p.hidden != true %}
     <div class="pure-u-md-1-3 project">
-      <img class="pure-img" src="{{site.url}}{{p.featured_image}}">
+      <a class="clip" href="{{site.url}}{{p.url}}">
+        <div class="project-title">{{p.title}}</div>
+        <img class="pure-img" loading="lazy" src="{{site.url}}{{p.featured_image}}">
+      </a>
     </div>
     {% endif %}
     {% endfor %}

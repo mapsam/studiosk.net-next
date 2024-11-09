@@ -6,7 +6,7 @@ layout: default
   <h1>{{page.title}}</h1>
 
   <section class="images">
-    <img class="pure-img" src="{{ site.url }}/{{ page.images[0] }}">
+    <img class="pure-img" src="{{ site.url }}/{{ page.images[0].imgs[0] }}">
   </section>
 
   <section class="specifications">
@@ -30,9 +30,15 @@ layout: default
   </section>
 
   <section class="images">
-    {% for img in page.images %}
+    {% for i in page.images %}
     {% if forloop.index > 1 %}
-    <img class="pure-img" src="{{ site.url }}/{{ img }}">
+    <div class="pure-g image-container">
+      {% for img in i.imgs %}
+      <div class="pure-u-md-1-{{ forloop.length }} image">
+        <img class="pure-img" src="{{ site.url }}/{{ img }}">
+      </div>
+      {% endfor %}
+    </div>
     {% endif %}
     {% endfor %}
   </section>

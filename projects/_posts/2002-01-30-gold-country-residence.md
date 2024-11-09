@@ -20,13 +20,20 @@ specs:
     value: "Lead Designer/Project Manager"
 
 images:
-  - /img/2015/01/gold_1.jpg
-  - /img/2015/01/gold_2.jpg
-  - /img/2015/01/gold_3.jpg
-  - /img/2015/01/gold_4.jpg
-  - /img/2015/01/gold_5.jpg
-  - /img/2015/01/gold_6.jpg
-  - /img/2015/01/gold_7.jpg
+  - imgs: 
+    - /img/2015/01/gold_1.jpg
+  - imgs: 
+    - /img/2015/01/gold_2.jpg
+  - imgs: 
+    - /img/2015/01/gold_3.jpg
+  - imgs: 
+    - /img/2015/01/gold_4.jpg
+  - imgs: 
+    - /img/2015/01/gold_5.jpg
+  - imgs: 
+    - /img/2015/01/gold_6.jpg
+  - imgs: 
+    - /img/2015/01/gold_7.jpg
 ---
 
 An off the grid house in the Sierra foothills designed with structurally insulated panel (SIPs) walls and roofs, solar PV panels and passive heating. Deep overhangs provide shade in hot summer heat while allowing low winter sun to heat interior concrete floors. The expansive roof contains solar panels while connecting the two building masses - the “sleep” building with bedrooms and tub / shower room, and the “live” building with living, dining and kitchen. All spaces are heated by radiant floors and the wood stove. Both buildings have generous openings for daylighting, for views to distant ridgelines and for contemplating the solace of the natural surroundings.

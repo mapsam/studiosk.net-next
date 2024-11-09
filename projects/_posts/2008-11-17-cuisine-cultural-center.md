@@ -16,12 +16,18 @@ specs:
     value: "9,000 sf"
 
 images:
-  - /img/2014/11/REDBANK-01_site.jpg
-  - /img/2014/11/REDBANK-02_ram.jpg
-  - /img/2014/11/REDBANK-03_plan.jpg
-  - /img/2014/11/REDBANK-04_diagrams.jpg
-  - /img/2014/11/REDBANK-05_sectelev.jpg
-  - /img/2014/11/REDBANK-06_perspective.jpg
+  - imgs: 
+    - /img/2014/11/REDBANK-01_site.jpg
+  - imgs: 
+    - /img/2014/11/REDBANK-02_ram.jpg
+  - imgs: 
+    - /img/2014/11/REDBANK-03_plan.jpg
+  - imgs: 
+    - /img/2014/11/REDBANK-04_diagrams.jpg
+  - imgs: 
+    - /img/2014/11/REDBANK-05_sectelev.jpg
+  - imgs: 
+    - /img/2014/11/REDBANK-06_perspective.jpg
 ---
 
 The Cuisine Cultural Center is a food and wellness education center promoting locally grown food, healthy lifestyle and a space for visiting chefs, lectures, restaurant, bar / lounge and retail. Positioning itself in the gap between practice, production and education, the mission of the Center is to promote knowledge exchange and sharing of the food arts through onsite research and training, publications, lectures and webcasts.

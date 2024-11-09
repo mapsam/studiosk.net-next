@@ -6,17 +6,28 @@ date: 2023-05-17 00:00:00
 featured_image: /img/2023/fremont-theater/web/featured.jpg
 
 images:
-  - /img/2023/fremont-theater/web/01_Street_View.jpg
-  - /img/2023/fremont-theater/web/02_Entry_View.jpg
-  - /img/2023/fremont-theater/web/03_Public_Pathway.jpg
-  - /img/2023/fremont-theater/web/04_Section.jpg
-  - /img/2023/fremont-theater/web/05_L2_Bar_3.jpg
-  - /img/2023/fremont-theater/web/06_After_School_in_Community_Theater.jpg
-  - /img/2023/fremont-theater/web/07_Concert_in_Community_Theater.jpg
-  - /img/2023/fremont-theater/web/08_Speak_Easy.jpg
-  - /img/2023/fremont-theater/web/09_Exploded_View.jpg
-  - /img/2023/fremont-theater/web/10_Future_use.jpg
-  - /img/2023/fremont-theater/web/11_Project_Timeline.jpg
+  - imgs: 
+    - /img/2023/fremont-theater/web/01_Street_View.jpg
+  - imgs: 
+    - /img/2023/fremont-theater/web/02_Entry_View.jpg
+  - imgs: 
+    - /img/2023/fremont-theater/web/03_Public_Pathway.jpg
+  - imgs: 
+    - /img/2023/fremont-theater/web/04_Section.jpg
+  - imgs: 
+    - /img/2023/fremont-theater/web/05_L2_Bar_3.jpg
+  - imgs: 
+    - /img/2023/fremont-theater/web/06_After_School_in_Community_Theater.jpg
+  - imgs: 
+    - /img/2023/fremont-theater/web/07_Concert_in_Community_Theater.jpg
+  - imgs: 
+    - /img/2023/fremont-theater/web/08_Speak_Easy.jpg
+  - imgs: 
+    - /img/2023/fremont-theater/web/09_Exploded_View.jpg
+  - imgs: 
+    - /img/2023/fremont-theater/web/10_Future_use.jpg
+  - imgs: 
+    - /img/2023/fremont-theater/web/11_Project_Timeline.jpg
 
 specs:
   - key: project

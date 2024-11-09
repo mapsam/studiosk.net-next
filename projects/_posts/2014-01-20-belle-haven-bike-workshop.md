@@ -18,13 +18,20 @@ specs:
     value: "IDEO, Facebook Bike Hub, Limelab, Silicon Valley Bicycle Coalition"
 
 images:
-  - /img/2014/01/boysgirls_1.jpg
-  - /img/2014/01/boysgirls_2.jpg
-  - /img/2014/01/boysgirls_3.jpg
-  - /img/2014/01/boysgirls_4.jpg
-  - /img/2014/07/bg-closed.png
-  - /img/2014/07/bg-open.png
-  - /img/2014/01/bg-sketch-models.png
+  - imgs: 
+    - /img/2014/01/boysgirls_1.jpg
+  - imgs: 
+    - /img/2014/01/boysgirls_2.jpg
+  - imgs: 
+    - /img/2014/01/boysgirls_3.jpg
+  - imgs: 
+    - /img/2014/01/boysgirls_4.jpg
+  - imgs: 
+    - /img/2014/07/bg-closed.png
+  - imgs: 
+    - /img/2014/07/bg-open.png
+  - imgs: 
+    - /img/2014/01/bg-sketch-models.png
 ---
 
 The Belle Haven Bike Shop is a youth run bike repair and training project built from three repurposed shipping containers for the Belle Haven chapter of the Boys and Girls Clubs of the Peninsula. The bike shop will serve as both a community gathering space and an employment pathway for teens to jobs in local bike shops, transportation departments at local technology partners, and as certified instructors prepared to teach bicycle safety to both children and adults.

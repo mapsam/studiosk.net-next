@@ -16,12 +16,18 @@ specs:
     value: "1,800 sf"
 
 images:
-  - /img/2014/11/OGP-01_elevation.jpg
-  - /img/2014/11/OGP-06_sketch.jpg
-  - /img/2014/11/OGP-05_source.jpg
-  - /img/2014/11/OGP-04_modelback.jpg
-  - /img/2014/11/OGP-03_modelfront.jpg
-  - /img/2014/11/OGP-02_plan.jpg
+  - imgs: 
+    - /img/2014/11/OGP-01_elevation.jpg
+  - imgs: 
+    - /img/2014/11/OGP-06_sketch.jpg
+  - imgs: 
+    - /img/2014/11/OGP-05_source.jpg
+  - imgs: 
+    - /img/2014/11/OGP-04_modelback.jpg
+  - imgs: 
+    - /img/2014/11/OGP-03_modelfront.jpg
+  - imgs: 
+    - /img/2014/11/OGP-02_plan.jpg
 ---
 
 A prototype for a prefabricated off the grid house.

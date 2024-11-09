@@ -8,12 +8,18 @@ date: 2024-04-23 00:00:00
 featured_image: /img/2024/mgc/featured.jpg
 
 images:
-  - /img/2024/mgc/1_TaiyoWatanabe_WA_9151-sml.jpg
-  - /img/2024/mgc/2_TaiyoWatanabe_WA_9200-sml.jpg
-  - /img/2024/mgc/3_TaiyoWatanabe_WA_9206-sml.jpg
-  - /img/2024/mgc/4_TaiyoWatanabe_WA_9266-sml.jpg
-  - /img/2024/mgc/5_TaiyoWatanabe_WA_9214-sml.jpg
-  - /img/2024/mgc/6_TaiyoWatanabe_WA_9275-sml.jpg
+  - imgs: 
+    - /img/2024/mgc/6_TaiyoWatanabe_WA_9275-sml.jpg
+  - imgs: 
+    - /img/2024/mgc/1_TaiyoWatanabe_WA_9151-sml.jpg
+    - /img/2024/mgc/2_TaiyoWatanabe_WA_9200-sml.jpg
+    
+  - imgs: 
+    - /img/2024/mgc/3_TaiyoWatanabe_WA_9206-sml.jpg
+    - /img/2024/mgc/4_TaiyoWatanabe_WA_9266-sml.jpg    
+  - imgs: 
+    - /img/2024/mgc/5_TaiyoWatanabe_WA_9214-sml.jpg
+  
 
 specs:
   - key: project

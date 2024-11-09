@@ -17,8 +17,10 @@ specs:
     value: "4,000 sf"
 
 images:
-  - /img/2014/07/cm_002.jpg
-  - /img/2014/07/CM-02.jpg
+  - imgs: 
+    - /img/2014/07/cm_002.jpg
+  - imgs: 
+    - /img/2014/07/CM-02.jpg
 ---
 
 The Corte Madera Residence is a 4,000 sf house located on the hills of Marin.  The main living area has a vaulted ceiling which frames the views of the hills across the valley.

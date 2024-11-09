@@ -18,12 +18,18 @@ specs:
     value: "Warren Office for Research and Design, Katya Tylevich – art consulting, Luminesce – lighting, Lydia  Bryans – translation."
 
 images:
-  - /img/2010/07/NCCA_1.jpg
-  - /img/2014/07/NCCA_-view-004.jpg
-  - /img/2014/07/NCCA_path.jpg
-  - /img/2014/07/NCCA_v2.2.png
-  - /img/2014/07/NCCA_v3.2.png
-  - /img/2014/07/NCCA_zone.2.png
+  - imgs: 
+    - /img/2010/07/NCCA_1.jpg
+  - imgs: 
+    - /img/2014/07/NCCA_-view-004.jpg
+  - imgs: 
+    - /img/2014/07/NCCA_path.jpg
+  - imgs: 
+    - /img/2014/07/NCCA_v2.2.png
+  - imgs: 
+    - /img/2014/07/NCCA_v3.2.png
+  - imgs: 
+    - /img/2014/07/NCCA_zone.2.png
 ---
 
 <strong>This is not a museum</strong>
