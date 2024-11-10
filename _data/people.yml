@@ -1,0 +1,30 @@
+- name: Maxine Skaggs Kennedy
+  contact: maxine@studiosk.net
+  image: /img/people/maxine.png
+  image_hover: /img/people/maxine-hover.png
+  about:
+    - Maxine is a licensed architect in California. Before founding Studio Skaggs Kennedy, Maxine worked on a variety of projects from residential to urban design with a majority of the time designing public architecture, specializing in libraries, university buildings and community centers. Whether a library or house, Maxine always envisions a person's use and experience of the project as a guide in her design process. She loves blurring the threshold of exterior and interior space and always searches for inventive ways to bring the outside in.
+    - Maxine's affinity for architecture began when she took every architectural history class offered at Trinity College in Hartford, CT and led to her studying architecture abroad in Florence, Italy. She fell in love with modern architecture and was a teaching assistant for the course 20th century Architecture. She received her Master of Architecture from the University of Pennsylvania in 2000. After participating in UPenn's Japan summer abroad program, she interned for Gensler architecture firm in Tokyo. Enthralled by Japan's minimal historical architecture and innovative modern architecture, it still influences her designs. After graduation, Maxine moved back to her native Northern California to start her architecture career.
+
+- name: Sean Patrick Kennedy
+  contact: sean@studiosk.net
+  image: /img/people/sean.png
+  image_hover: /img/people/sean-hover.png
+  about:
+    - As a founding principal of Studio Skaggs Kennedy, Sean Patrick Kennedy has been practicing architecture since 2000 in the San Francisco Bay Area. Having worked on a wide variety of project types, scales and locations, he brings expertise in sustainable design, management and technical aspects to every project in addition to having practical experience administering construction and budgets. As a way of challenging, investigating and changing the built and natural environments in a positive way, Sean brings a fresh outlook and level of inquisitiveness to every new project, leading to unforeseen and artful outcomes.
+    - Originally from Minnesota, Sean received his undergraduate degree in Ecological Sciences from the University of Wisconsin-Madison. After 3 years working as an environmental researcher in Minneapolis and Budapest, Hungary, he moved to Philadelphia and received a Master of Architecture from the University of Pennsylvania. He is a frequent visiting design critic at the University of California, Berkeley and the California College of the Arts in San Francisco.
+
+- name: Collaborators
+  image: /img/people/rosie.png
+  image_hover: /img/people/rosie-hover.png
+  about:
+    - Andre Vilhena
+    - Colin Griffin
+    - Miao Li
+    - Margherita Falcioni
+    - Perry Wexelberg
+    - Natthida Wiwatwicha
+    - Pedram Farashbandi
+    - Karly Stephens
+    - Jaime Bernal
+    - Rosie Wigglesworth 🐶

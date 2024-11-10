@@ -3,8 +3,9 @@ title: studio
 layout: default
 ---
 
-<section class="cf">
-  <div class="section-left section-60">
+<div class="pure-g">
+  <div class="pure-u-md-3-4">
+    <h2>About us</h2>
     <p><strong>s_sk</strong> studio skaggs kennedy is a Berkeley-based design practice for architecture and urbanism, licensed in California and Washington state. Maxine Skaggs Kennedy and Sean Kennedy founded their studio in 2015. The practice is run as a studio in which study, research and collaboration are vitally important to the approach of design. Design is seen as a vigorous interaction with place at all scales and with all disciplines.</p>
     <p><strong>s_sk</strong> seeks collaboration and insight from unlikely places. Architecture is not only about space, light and air but also about politics, culture and ecology. While a timeless art, to remain relevant, architecture must be practiced in a contemporary manner to address current issues. Architecture is an adaptive and transformative process.</p>
     <p><strong>s_sk</strong> uses design as a way to enhance and add to the natural environment with every project. Sustainability and “green” design are not just checklists but integrated into the overall project process.</p>
@@ -12,43 +13,21 @@ layout: default
     <p><strong>s_sk</strong> sees design as an action and not just as an object, projects should have a positive effect on their users, their neighbors and the future.</p>
     <p><strong>s_sk</strong> searches for unknown possibilities, for the creative and for an architecture practiced somewhere between a possible utopia and a pragmatic act.</p>
   </div>
+</div>
 
-  <div class="section-right section-40 section-pad-left">
-    <img class="section-img" src="{{site.url}}/img/2017/11/studio-models-web.jpg" alt="studio-models-web" width="700" height="698" class="alignnone size-full wp-image-589" />
+<div class="pure-g people">
+  {% for person in site.data.people %}
+  <div class="pure-u-md-1-3 person">
+    <div class="person-image">
+      <img src="{{ site.url }}{{ person.image }}">
+      <img src="{{ site.url }}{{ person.image_hover }}" class="hide">
+    </div>
+    <div class="person-content">
+      <h3>{{ person.name }}</h3>
+      {% for a in person.about %}
+        <p>{{a}}</p>
+      {% endfor %}
+    </div>
   </div>
-</section>
-
-<section class="cf">
-  <div class="section-left section-40 section-pad-right">
-    <img src="{{site.url}}/img/2017/11/max-blue-web.jpg" alt="max-blue-web" width="500" height="375" class="alignnone size-full wp-image-575" />
-  </div>
-
-  <div class="section-right section-60">
-    <h1>maxine skaggs kennedy</h1>
-    <p>Maxine is a licensed architect in California. Before founding Studio Skaggs Kennedy, Maxine worked on a variety of projects from residential to urban design with a majority of the time designing public architecture, specializing in libraries, university buildings and community centers. Whether a library or house, Maxine always envisions a person’s use and experience of the project as a guide in her design process. She loves blurring the threshold of exterior and interior space and always searches for inventive ways to bring the outside in.</p>
-    <p>Maxine’s affinity for architecture began when she took every architectural history class offered at Trinity College in Hartford, CT and led to her studying architecture abroad in Florence, Italy. She fell in love with modern architecture and was a teaching assistant for the course 20th century Architecture. She received her Master of Architecture from the University of Pennsylvania in 2000. After participating in UPenn’s Japan summer abroad program, she interned for Gensler architecture firm in Tokyo. Enthralled by Japan’s minimal historical architecture and innovative modern architecture, it still influences her designs. After graduation, Maxine moved back to her native Northern California to start her architecture career.</p>
-    <p><strong>Contact:</strong><br>maxine@studiosk.net</p>
-  </div>
-</section>
-
-<section class="cf">
-  <div class="section-left section-60 section-align-right">
-    <h1>sean patrick kennedy</h1>
-    <p>As a founding principal of Studio Skaggs Kennedy, Sean Patrick Kennedy has been practicing architecture since 2000 in the San Francisco Bay Area. Having worked on a wide variety of project types, scales and locations, he brings expertise in sustainable design, management and technical aspects to every project in addition to having practical experience administering construction and budgets. As a way of challenging, investigating and changing the built and natural environments in a positive way, Sean brings a fresh outlook and level of inquisitiveness to every new project, leading to unforeseen and artful outcomes.</p>
-    <p>Originally from Minnesota, Sean received his undergraduate degree in Ecological Sciences from the University of Wisconsin-Madison. After 3 years working as an environmental researcher in Minneapolis and Budapest, Hungary, he moved to Philadelphia and received a Master of Architecture from the University of Pennsylvania. He is a frequent visiting design critic at the University of California, Berkeley and the California College of the Arts in San Francisco.</p>
-    <p><strong>Contact:</strong><br>sean@studiosk.net</p>
-  </div>
-  <div class="section-right section-40 section-pad-left section-align-right">
-    <img class="section-img" src="{{site.url}}/img/2017/11/sean-ps-web-225x300.jpg" alt="sean-ps-web" width="225" height="300" class="alignnone size-medium wp-image-577" />
-  </div>
-</section>
-
-<section class="cf">
-  <div class="section-left section-40 section-pad-right">
-    <img class="section-img" src="{{site.url}}/img/2017/11/rosie-web.jpg" alt="rosie-web" width="600" height="450" class="alignnone size-full wp-image-588" />
-  </div>
-  <div class="section-right section-60">
-    <h1>collaborators</h1>
-    <p>Andre Vilhena, Colin Griffin, Miao Li, Margherita Falcioni, Perry Wexelberg, Natthida Wiwatwicha, Pedram Farashbandi, Karly Stephens, Jaime Bernal, and Rosie Wigglesworth</p>
-  </div>
-</section>
+  {% endfor %}
+</div>

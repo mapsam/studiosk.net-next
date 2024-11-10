@@ -176,3 +176,57 @@ $project-height: 400px;
     }
   }
 }
+
+.people {
+  .person {
+    @media (min-width: $breakpoint) {
+      // 4, 7, 10, ... (lefts)
+      &:nth-child(3n+4), &:first-child {
+        padding-right: $gutter-half;
+      }
+
+      // 3, 6, 9, ... (rights)
+      &:nth-child(3n+3) {
+        padding-left: $gutter-half;
+      }
+
+      // 2, 5, 8, ... (middles)
+      &:nth-child(3n+2) {
+        padding-left: $gutter-half;
+        padding-right: $gutter-half;
+      }
+    }
+
+    .person-content {
+      padding-right: 2em;
+      font-size: 0.9em;
+      // padding-left: 1em;
+    }
+
+    .person-image {
+      height: 350px;
+      overflow: hidden;
+
+      img {
+        object-fit: cover;
+        min-width: 100%;
+        min-height: 100%;
+      }
+
+      &:hover {
+        img {
+          &:first-child {
+            display: none;
+          }
+          &:last-child {
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}
+
+.hide {
+  display: none;
+}
