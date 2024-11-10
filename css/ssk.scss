@@ -59,6 +59,14 @@ nav {
       a {
         text-decoration: none;
       }
+
+      &.badge {
+        background-color: $gray;
+
+        a {
+          color: white;
+        }
+      }
   
       &.selected {
         a {
@@ -229,4 +237,8 @@ $project-height: 400px;
 
 .hide {
   display: none;
+}
+
+.invisible {
+  visibility: hidden;
 }

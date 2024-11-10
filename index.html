@@ -3,20 +3,23 @@ layout: default
 name: index
 ---
 
-<div id="centered">
-  <a href="{{site.url}}/projects" id="ssk">s<span id="underscore">_</span>sk</a>
+<div class="pure-g">
+  <div class="pure-u-md-1-4"></div>
+  <div class="pure-u-md-1-2">
+    <h1 style="font-size: 5em;">s<span id="blinker" style="color: #cc8400;">_</span>sk</h1>
+    <p><strong>Studio Skaggs Kennedy</strong> is a Berkeley-based design practice for architecture and urbanism, licensed in California and Washington state. Maxine Skaggs Kennedy and Sean Kennedy founded their studio in 2015. The practice is run as a studio in which study, research and collaboration are vitally important to the approach of design. Design is seen as a vigorous interaction with place at all scales and with all disciplines.</p>
+    <p>View our <a href="{{site.url}}/projects">work</a>.</p>
+    <img src="{{site.url}}/img/2023/fremont-theater/web/09_Exploded_View.jpg"/>
+  </div>
+  <div class="pure-u-md-1-4"></div>
 </div>
+</p>
 
 <script>
-blink();
-// blinking s_sk on front-page.php
-var totalTime = 3000;
-var elapsed = 0;
-function blink() {
-  setInterval(function(){
-    $('#underscore').toggleClass('trans');
-    elapsed+=500;
-    if (elapsed >= totalTime) window.location.href='/projects';
-  }, 500);
-}
+  const elem = document.getElementById('blinker');
+  let visible = true;
+  setInterval(() => {
+    elem.className = visible ? "" : "invisible";
+    visible = !visible;
+  }, 750);
 </script>
