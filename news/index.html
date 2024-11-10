@@ -4,17 +4,17 @@ title: news
 ---
 
 {% for post in site.categories.news %}
-  <article class="post">
-
-    <div class="post-title">
-      {% if post.featured_image %}
-      <a href="{{post.link}}"><img class="featured-image" src="{{site.url}}{{post.featured_image}}"></a>
-      {% endif %}
-      <h2>{{post.title}}</h2>
+<article class="post">
+  <div class="pure-g">
+    <div class="pure-u-md-1-4">
+      <p>{{ post.date | date: '%B %d, %Y' }}</p>
     </div>
-
-    <div class="post-content" >
+    <div class="pure-u-md-1-2">
+      <h3>{{post.title}}</h3>
+      <a href="{{ post.link }}"><img class="pure-img" loading="lazy" src="{{site.url}}{{post.featured_image}}"></a>
       {{post.content}}
     </div>
-  </article>
+    <div class="pure-u-md-1-4"></div>
+  </div>
+</article>
 {% endfor %}
