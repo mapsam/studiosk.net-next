@@ -3,10 +3,15 @@ layout: default
 ---
 
 <div class="content">
-  <h1>{{page.title}}</h1>
-
   <section class="images">
     <img class="pure-img" src="{{ site.url }}/{{ page.images[0].imgs[0] }}">
+  </section>
+
+  <section class="pure-g">
+    <div class="pure-u-md-3-4">
+      <h1>{{page.title}}</h1>
+      {{page.content}}
+    </div>
   </section>
 
   <section class="specifications">
@@ -16,12 +21,6 @@ layout: default
           <p>{{spec.key | upcase }}<br>{{spec.value}}</p>
         </div>
       {% endfor %}
-    </div>
-  </section>
-
-  <section class="pure-g">
-    <div class="pure-u-md-3-4">
-      {{page.content}}
     </div>
   </section>
 
