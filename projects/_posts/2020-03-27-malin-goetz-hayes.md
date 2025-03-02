@@ -11,25 +11,20 @@ images:
   - imgs: 
     - /img/2020/04/malin_goetz_sf__10.jpg
   - imgs: 
-    - /img/2020/04/malin_goetz_sf__00.jpg
-  - imgs: 
     - /img/2020/04/malin_goetz_sf__01.jpg
   - imgs: 
+    - /img/2020/04/malin_goetz_sf__00.jpg
     - /img/2020/04/malin_goetz_sf__02.jpg
   - imgs: 
     - /img/2020/04/malin_goetz_sf__03.jpg
+    - /img/2020/04/malin_goetz_sf__05.jpg
   - imgs: 
     - /img/2020/04/malin_goetz_sf__04.jpg
   - imgs: 
-    - /img/2020/04/malin_goetz_sf__05.jpg
-  - imgs: 
     - /img/2020/04/malin_goetz_sf__06.jpg
-  - imgs: 
-    - /img/2020/04/malin_goetz_sf__07.jpg
-  - imgs: 
     - /img/2020/04/malin_goetz_sf__08.jpg
   - imgs: 
-    - /img/2020/04/malin_goetz_sf__09.jpg
+    - /img/2020/04/malin_goetz_sf__07.jpg
 
 specs:
   - key: project
