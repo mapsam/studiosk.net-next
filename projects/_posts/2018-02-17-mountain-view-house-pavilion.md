@@ -5,24 +5,6 @@ layout: project
 date: 2018-02-17 23:54:34
 featured_image: /img/projects/mvm/MVM_model_views_w775.jpg
 
-# img/projects/mvm/MVM_model_views_blurred.jpg
-# img/projects/mvm/MVM_model_views_w775.jpg
-# img/projects/mvm/MVM_model_views_w1500.jpg
-# img/projects/mvm/MVM_model_views_w2000.jpg
-# img/projects/mvm/MVM_models_instagram_blurred.jpg
-# img/projects/mvm/MVM_models_instagram_w775.jpg
-# img/projects/mvm/MVM_models_instagram_w1500.jpg
-# img/projects/mvm/MVM_models_instagram_w2000.jpg
-# img/projects/mvm/MVM_RENDER_VIEW_FROM_THE_REARYARD_blurred.jpg
-# img/projects/mvm/MVM_RENDER_VIEW_FROM_THE_REARYARD_w775.jpg
-# img/projects/mvm/MVM_RENDER_VIEW_FROM_THE_REARYARD_w1500.jpg
-# img/projects/mvm/MVM_RENDER_VIEW_FROM_THE_REARYARD_w2000.jpg
-# img/projects/mvm/MVM_siteplan_scan_blurred.jpg
-# img/projects/mvm/MVM_siteplan_scan_w775.jpg
-# img/projects/mvm/MVM_siteplan_scan_w1500.jpg
-# img/projects/mvm/MVM_siteplan_scan_w2000.jpg
-
-
 specs: 
   - key: project
     value: "Mountain View House & Pavilion"
