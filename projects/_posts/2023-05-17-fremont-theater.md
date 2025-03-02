@@ -3,31 +3,31 @@ title: Fremont Theater Adaptive Reuse
 permalink: /projects/fremont-theater
 layout: project
 date: 2023-05-17 00:00:00
-featured_image: /img/2023/fremont-theater/web/featured.jpg
+featured_image: /img/projects/fremont-theater/4Section_w775.jpg
 
 images:
   - imgs: 
-    - /img/2023/fremont-theater/web/01_Street_View.jpg
+    - img/projects/fremont-theater/1Street_View_w1500.jpg
   - imgs: 
-    - /img/2023/fremont-theater/web/02_Entry_View.jpg
+    - img/projects/fremont-theater/2Entry_View_w1500.jpg
   - imgs: 
-    - /img/2023/fremont-theater/web/03_Public_Pathway.jpg
+    - img/projects/fremont-theater/3Public_Pathway_w1500.jpg
   - imgs: 
-    - /img/2023/fremont-theater/web/04_Section.jpg
+    - img/projects/fremont-theater/4Section_w1500.jpg
   - imgs: 
-    - /img/2023/fremont-theater/web/05_L2_Bar_3.jpg
+    - img/projects/fremont-theater/5L2_Bar3_w1500.jpg
   - imgs: 
-    - /img/2023/fremont-theater/web/06_After_School_in_Community_Theater.jpg
+    - img/projects/fremont-theater/6After_School_in_Community_Theater_w1500.jpg
   - imgs: 
-    - /img/2023/fremont-theater/web/07_Concert_in_Community_Theater.jpg
+    - img/projects/fremont-theater/7Concert_in_Community_Theater_w1500.jpg
   - imgs: 
-    - /img/2023/fremont-theater/web/08_Speak_Easy.jpg
+    - img/projects/fremont-theater/8Speak_Easy_w1500.jpg
   - imgs: 
-    - /img/2023/fremont-theater/web/09_Exploded_View.jpg
+    - img/projects/fremont-theater/9EXPLODED_VIEW_w1500.jpg
   - imgs: 
-    - /img/2023/fremont-theater/web/10_Future_use.jpg
+    - img/projects/fremont-theater/10Future_Use_w1500.jpg
   - imgs: 
-    - /img/2023/fremont-theater/web/11_Project_Timeline.jpg
+    - img/projects/fremont-theater/11Project_Timeline_w1500.jpg
 
 specs:
   - key: project
