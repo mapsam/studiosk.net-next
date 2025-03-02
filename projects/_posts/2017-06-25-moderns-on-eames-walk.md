@@ -3,7 +3,7 @@ title: Moderns On Eames Walk
 permalink: /projects/moderns-on-eames-walk
 layout: project
 date: 2020-01-06 17:44:23
-featured_image: /img/2017/06/bd2-featured.jpg
+featured_image: /img/projects/moew/10projectModerns25_w775.jpg
 
 specs:
   - key: project
@@ -19,51 +19,139 @@ specs:
   - key: awards
     value: "AIA East Bay Design Awards 2018, category Exceptional Residential: Merit Award. Sacramento Business Journal, Best Real estate Project 2018"
 
+# img/projects/moew/1Moderns19c_blurred.jpg
+# img/projects/moew/1Moderns19c_w775.jpg
+# img/projects/moew/1Moderns19c_w1500.jpg
+# img/projects/moew/1Moderns19c_w2000.jpg
+# img/projects/moew/2Moderns24_blurred.jpg
+# img/projects/moew/2Moderns24_w775.jpg
+# img/projects/moew/2Moderns24_w1500.jpg
+# img/projects/moew/2Moderns24_w2000.jpg
+# img/projects/moew/4Moderns11_blurred.jpg
+# img/projects/moew/4Moderns11_w775.jpg
+# img/projects/moew/4Moderns11_w1500.jpg
+# img/projects/moew/4Moderns11_w2000.jpg
+# img/projects/moew/5Moderns9_blurred.jpg
+# img/projects/moew/5Moderns9_w775.jpg
+# img/projects/moew/5Moderns9_w1500.jpg
+# img/projects/moew/5Moderns9_w2000.jpg
+# img/projects/moew/7Moderns2_blurred.jpg
+# img/projects/moew/7Moderns2_w775.jpg
+# img/projects/moew/7Moderns2_w1500.jpg
+# img/projects/moew/7Moderns2_w2000.jpg
+# img/projects/moew/8Moderns5_blurred.jpg
+# img/projects/moew/8Moderns5_w775.jpg
+# img/projects/moew/8Moderns5_w1500.jpg
+# img/projects/moew/8Moderns5_w2000.jpg
+# img/projects/moew/9Moderns7_blurred.jpg
+# img/projects/moew/9Moderns7_w775.jpg
+# img/projects/moew/9Moderns7_w1500.jpg
+# img/projects/moew/9Moderns7_w2000.jpg
+# img/projects/moew/10projectModerns25_blurred.jpg
+# img/projects/moew/10projectModerns25_w775.jpg
+# img/projects/moew/10projectModerns25_w1500.jpg
+# img/projects/moew/10projectModerns25_w2000.jpg
+# img/projects/moew/11Moderns39_blurred.jpg
+# img/projects/moew/11Moderns39_w775.jpg
+# img/projects/moew/11Moderns39_w1500.jpg
+# img/projects/moew/11Moderns39_w2000.jpg
+# img/projects/moew/12Moderns35c_blurred.jpg
+# img/projects/moew/12Moderns35c_w775.jpg
+# img/projects/moew/12Moderns35c_w1500.jpg
+# img/projects/moew/12Moderns35c_w2000.jpg
+# img/projects/moew/13Moderns26c_blurred.jpg
+# img/projects/moew/13Moderns26c_w775.jpg
+# img/projects/moew/13Moderns26c_w1500.jpg
+# img/projects/moew/13Moderns26c_w2000.jpg
+# img/projects/moew/14Moderns18_blurred.jpg
+# img/projects/moew/14Moderns18_w775.jpg
+# img/projects/moew/14Moderns18_w1500.jpg
+# img/projects/moew/14Moderns18_w2000.jpg
+# img/projects/moew/15Moderns15_blurred.jpg
+# img/projects/moew/15Moderns15_w775.jpg
+# img/projects/moew/15Moderns15_w1500.jpg
+# img/projects/moew/15Moderns15_w2000.jpg
+# img/projects/moew/16Moderns17_blurred.jpg
+# img/projects/moew/16Moderns17_w775.jpg
+# img/projects/moew/16Moderns17_w1500.jpg
+# img/projects/moew/16Moderns17_w2000.jpg
+# img/projects/moew/17A1_fromdeck_blurred.jpg
+# img/projects/moew/17A1_fromdeck_w775.jpg
+# img/projects/moew/17A1_fromdeck_w1500.jpg
+# img/projects/moew/17A1_fromdeck_w2000.jpg
+# img/projects/moew/18_street_blurred.jpg
+# img/projects/moew/18_street_w775.jpg
+# img/projects/moew/18_street_w1500.jpg
+# img/projects/moew/18_street_w2000.jpg
+# img/projects/moew/19Moderns34c_blurred.jpg
+# img/projects/moew/19Moderns34c_w775.jpg
+# img/projects/moew/19Moderns34c_w1500.jpg
+# img/projects/moew/19Moderns34c_w2000.jpg
+# img/projects/moew/20Moderns21_blurred.jpg
+# img/projects/moew/20Moderns21_w775.jpg
+# img/projects/moew/20Moderns21_w1500.jpg
+# img/projects/moew/20Moderns21_w2000.jpg
+# img/projects/moew/22BD13details_blurred.jpg
+# img/projects/moew/22BD13details_w775.jpg
+# img/projects/moew/22BD13details_w1500.jpg
+# img/projects/moew/22BD13details_w2000.jpg
+# img/projects/moew/30Moderns22copy_blurred.jpg
+# img/projects/moew/30Moderns22copy_w775.jpg
+# img/projects/moew/30Moderns22copy_w1500.jpg
+# img/projects/moew/30Moderns22copy_w2000.jpg
+# img/projects/moew/31Moderns13_blurred.jpg
+# img/projects/moew/31Moderns13_w775.jpg
+# img/projects/moew/31Moderns13_w1500.jpg
+# img/projects/moew/31Moderns13_w2000.jpg
+
 images:
-  - imgs: 
-    - /img/2017/06/1Moderns-19-c.jpg
-  - imgs: 
-    - /img/2017/06/2-Moderns-24.jpg
-  - imgs: 
-    - /img/2017/06/3-0-Moderns-22copy.jpg
-  - imgs: 
-    - /img/2017/06/3-1-Moderns-13.jpg
-  - imgs: 
-    - /img/2017/06/4-Moderns-11.jpg
-  - imgs: 
-    - /img/2017/06/5-Moderns-9.jpg
-  - imgs: 
-    - /img/2017/06/6-Moderns.jpg
-  - imgs: 
-    - /img/2017/06/7-Moderns-2.jpg
-  - imgs: 
-    - /img/2017/06/8-Moderns-5.jpg
-  - imgs: 
-    - /img/2017/06/9-Moderns-7.jpg
-  - imgs: 
-    - /img/2017/06/10-project-Moderns-25.jpg
-  - imgs: 
-    - /img/2017/06/11-Moderns-39.jpg
-  - imgs: 
-    - /img/2017/06/12-Moderns-35-c.jpg
-  - imgs: 
-    - /img/2017/06/13-Moderns-26-c.jpg
-  - imgs: 
-    - /img/2017/06/14-Moderns-18.jpg
-  - imgs: 
-    - /img/2017/06/15-Moderns-15.jpg
-  - imgs: 
-    - /img/2017/06/16-Moderns-17.jpg
-  - imgs: 
-    - /img/2017/06/17-A1_from-deck.jpg
-  - imgs: 
-    - /img/2017/06/18_street.jpg
-  - imgs: 
-    - /img/2017/06/19-Moderns-34c.jpg
-  - imgs: 
-    - /img/2017/06/20-Moderns-21.jpg
-  - imgs: 
-    - /img/2017/06/22-BD1-3-details.jpg
+  - imgs:
+    - img/projects/moew/1Moderns19c_w1500.jpg
+  - imgs:
+    - img/projects/moew/2Moderns24_w1500.jpg
+  - imgs:
+    - img/projects/moew/30Moderns22copy_w1500.jpg
+  - imgs:
+    - img/projects/moew/31Moderns13_w1500.jpg
+  - imgs:
+    - img/projects/moew/4Moderns11_w1500.jpg ###
+    - img/projects/moew/18_street_w1500.jpg
+  - imgs:
+    - img/projects/moew/5Moderns9_w1500.jpg
+  - imgs:
+    - img/projects/moew/6Moderns_w1500.jpg
+  - imgs:
+    - img/projects/moew/7Moderns2_w1500.jpg
+  - imgs:
+    - img/projects/moew/8Moderns5_w1500.jpg
+  - imgs:
+    - img/projects/moew/9Moderns7_w1500.jpg
+    - img/projects/moew/12Moderns35c_w1500.jpg
+  - imgs:
+    - img/projects/moew/14Moderns18_w1500.jpg
+  - imgs:
+    - img/projects/moew/15Moderns15_w1500.jpg
+
+    
+  - imgs:
+    - img/projects/moew/16Moderns17_w1500.jpg
+    - img/projects/moew/11Moderns39_w1500.jpg
+    
+  
+  - imgs:
+    - img/projects/moew/13Moderns26c_w1500.jpg
+
+  - imgs:
+    - img/projects/moew/17A1_fromdeck_w1500.jpg
+  - imgs:
+    - img/projects/moew/19Moderns34c_w1500.jpg
+  - imgs:
+    - img/projects/moew/10projectModerns25_w1500.jpg
+    - img/projects/moew/20Moderns21_w1500.jpg
+  - imgs:
+    - img/projects/moew/23-details-1.png
+    - img/projects/moew/23-details-2.png
+    - img/projects/moew/23-details-3.png
 ---
 
 SSK designed twenty-one new homes, The Moderns on Eames Walk, in the heart of The Bridge District in West Sacramento.  They are built to connect city living to outdoor experiences in a range of designs from 1,500 to 2,500 sf.  As the 2nd phase, in an ongoing revitalization of a former industrial site adjacent to the Sacramento River, the 21 for sale homes are sited and planned as a dense, walkable, and generously landscaped neighborhood. The homes are laid out in 3 zones - city units built close to the street and urban realm, the villas set above sidewalk grade facing the river and downtown Sacramento and the garden units adjacent to a pedestrian greenway and forested communal courtyard.

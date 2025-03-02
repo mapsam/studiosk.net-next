@@ -3,7 +3,25 @@ title: MEKA Concord
 permalink: /projects/meka-concord
 layout: project
 date: 2017-09-15 04:00:04
-featured_image: /img/2017/10/featured.jpg
+featured_image: /img/projects/mco/MCO_model_w1500.jpg
+
+# img/projects/mco/1_ViewFromCreekcrop_blurred.jpg
+# img/projects/mco/1_ViewFromCreekcrop_w775.jpg
+# img/projects/mco/1_ViewFromCreekcrop_w1500.jpg
+# img/projects/mco/1_ViewFromCreekcrop_w2000.jpg
+# img/projects/mco/2_ViewFromDrivewaycrop_blurred.jpg
+# img/projects/mco/2_ViewFromDrivewaycrop_w775.jpg
+# img/projects/mco/2_ViewFromDrivewaycrop_w1500.jpg
+# img/projects/mco/2_ViewFromDrivewaycrop_w2000.jpg
+# img/projects/mco/3_ViewAerialcrop_blurred.jpg
+# img/projects/mco/3_ViewAerialcrop_w775.jpg
+# img/projects/mco/3_ViewAerialcrop_w1500.jpg
+# img/projects/mco/3_ViewAerialcrop_w2000.jpg
+# img/projects/mco/MCO_model_blurred.jpg
+# img/projects/mco/MCO_model_w775.jpg
+# img/projects/mco/MCO_model_w1500.jpg
+# img/projects/mco/MCO_model_w2000.jpg
+
 
 specs:
   - key: project
@@ -18,12 +36,12 @@ specs:
     value: "MEKA"
 
 images:
-  - imgs: 
-    - /img/2017/10/1_ViewFromCreek-crop.jpg
-  - imgs: 
-    - /img/2017/10/2_ViewFromDriveway-crop.jpg
-  - imgs: 
-    - /img/2017/10/3_ViewAerial-crop1.jpg
+  - imgs:
+    - img/projects/mco/1_ViewFromCreekcrop_w1500.jpg
+  - imgs:
+    - img/projects/mco/2_ViewFromDrivewaycrop_w1500.jpg
+  - imgs:
+    - img/projects/mco/3_ViewAerialcrop_w1500.jpg
 ---
 
 Adding a duplex to an existing single family house site, the project aims to add density while maintaining the overall wooded and open quality of the site.
