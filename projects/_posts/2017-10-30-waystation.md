@@ -18,14 +18,12 @@ specs:
     value: "Konstrukt Photo"
 
 images:
-
   - imgs:
     - img/projects/waystation/1_WayStation_403PROJECT_w1500.jpg
   - imgs:
     - img/projects/waystation/2_WayStation_363_w1500.jpg
     - img/projects/waystation/3_WayStation_304_w1500.jpg
   - imgs:
-    
     - img/projects/waystation/4_WayStation_075_w1500.jpg
   - imgs:
     - img/projects/waystation/5_WayStation_136stitch_w1500.jpg
