@@ -76,23 +76,24 @@ nav {
   margin-bottom: 3em;
 
   ul {
-    li {
+    .pure-menu-item {
       display: inline-block;
-      margin-right: $gutter;
-  
+      margin-right: $gutter-half;
+      background-color: $white;
+
       a {
         text-decoration: none;
         text-transform: uppercase;
       }
 
       &.badge {
-        background-color: $gray;
+        background-color: $gray !important;
 
         a {
-          color: white;
+          color: $white;
         }
       }
-  
+
       &.selected {
         a {
           color: $orange;
@@ -121,6 +122,35 @@ footer {
         }
       }
     }
+  }
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+}
+
+.sticky-top {
+  top: 0
+}
+
+.sticky-bottom {
+  bottom: 0
+}
+
+.splash-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #c0c0c0;
+  overflow: hidden;
+
+  img {
+    object-fit: cover;
+    object-position: center;
+    
+    width: 100%;
+    height: 100%;
   }
 }
 
