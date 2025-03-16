@@ -3,7 +3,7 @@ title: Native Juice
 permalink: /projects/native-juice
 layout: project
 date: 2015-07-12 22:05:29
-featured_image: /img/2015/07/featured.jpg
+featured_image: /img/2015/07/0-Native-168Sutter-2016-1.jpg
 
 specs:
   - key: project
@@ -23,22 +23,19 @@ images:
   - imgs: 
     - /img/2015/07/1-Native-168Sutter-2016-15.jpg
   - imgs: 
-    - /img/2015/07/2-Native-168Sutter-2016-3.jpg
-  - imgs: 
     - /img/2015/07/3-Native-168Sutter-2016-23.jpg
   - imgs: 
-    - /img/2015/07/4-Native-168Sutter-2016-27.jpg
+    - /img/2015/07/2-Native-168Sutter-2016-3.jpg
+    - /img/2015/07/7-Native-168Sutter-2016-183.jpg
   - imgs: 
     - /img/2015/07/5-Native-168Sutter-2016-101.jpg
   - imgs: 
     - /img/2015/07/6-Native-168Sutter-2016-43.jpg
   - imgs: 
-    - /img/2015/07/7-Native-168Sutter-2016-183.jpg
-  - imgs: 
+    - /img/2015/07/4-Native-168Sutter-2016-27.jpg
     - /img/2015/07/8-Native-168Sutter-2016-50.jpg
   - imgs: 
     - /img/2015/07/9-Native-168Sutter-2016-64.jpg
-  - imgs: 
     - /img/2015/07/10-Native-168Sutter-2016-17.jpg
 ---
 
