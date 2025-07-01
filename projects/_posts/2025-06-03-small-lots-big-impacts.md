@@ -3,7 +3,7 @@ title: Small Lots, Big Impacts
 permalink: /projects/small-lots-big-impacts
 layout: project
 date: 2025-06-03 00:00:00
-featured_image: /img/2025/small-lots-big-impacts/featured.jpg
+featured_image: /img/projects/small-lots-big-impacts/LA_Small_Lots_Board__IG_horz2_w775.jpg
 
 images:
   - imgs:
