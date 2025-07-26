@@ -30,7 +30,9 @@ layout: default
     <div class="pure-g image-container">
       {% for img in i.imgs %}
       <div class="pure-u-md-1-{{ forloop.length }} image">
+        {% if img != "filler" %}
         <img class="pure-img" src="{{ site.url }}/{{ img }}">
+        {% endif %}
       </div>
       {% endfor %}
     </div>

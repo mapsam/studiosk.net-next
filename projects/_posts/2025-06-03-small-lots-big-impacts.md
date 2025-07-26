@@ -3,23 +3,24 @@ title: Small Lots, Big Impacts
 permalink: /projects/small-lots-big-impacts
 layout: project
 date: 2025-06-03 00:00:00
-featured_image: /img/projects/small-lots-big-impacts/LA_Small_Lots_Board__IG_horz2_w775.jpg
+featured_image: /img/projects/small-lots-big-impacts/Small_Lots2__front_yard_w775.jpg
 
 images:
   - imgs:
-    - /img/projects/small-lots-big-impacts/LA_Small_Lots_Board__IG_horz1_w1500.jpg
+    - /img/projects/small-lots-big-impacts/Small_Lots1__aerial_w1500.jpg
   - imgs:
-    - /img/projects/small-lots-big-impacts/LA_Small_Lots_Board__IG_horz2_w1500.jpg
+    - /img/projects/small-lots-big-impacts/Small_Lots2__front_yard_w1500.jpg
   - imgs:
-    - /img/projects/small-lots-big-impacts/LA_Small_Lots_Board__IG_horz3_w1500.jpg
+    - /img/projects/small-lots-big-impacts/Small_Lots3__diagram_w1500.jpg
   - imgs:
-    - /img/projects/small-lots-big-impacts/LA_Small_Lots_Board__IG_horz4_w1500.jpg
+    - /img/projects/small-lots-big-impacts/Small_Lots4__sectionplan_w1500.jpg
   - imgs:
-    - /img/projects/small-lots-big-impacts/LA_Small_Lots_Board__IG_horz5_w1500.jpg
+    - /img/projects/small-lots-big-impacts/Small_Lots5__plans_w1500.jpg
   - imgs:
-    - /img/projects/small-lots-big-impacts/LA_Small_Lots_Board__IG_horz6_w1500.jpg
+    - /img/projects/small-lots-big-impacts/Small_Lots7__deck_view_w1500.jpg
   - imgs:
-    - /img/projects/small-lots-big-impacts/LA_Small_Lots_Board__IG_horz7_w1500.jpg
+    - /img/projects/small-lots-big-impacts/Small_Lots6__path_view_w1500.jpg
+    - filler
   
 specs:
   - key: project
