@@ -1,0 +1,34 @@
+{% comment %}
+
+Usage:
+{% include lazy-image.html 
+    filename="my_image" 
+    size=2000 
+    alt="Description of image" 
+%}
+Assumes images have the following filename structure:
+- {{ filename }}_blurred.jpg
+- {{ filename }}_w{{ size }}.webp
+- {{ filename }}_w{{ size }}.jpg
+
+Assumes the page has javascript enabled that preloads
+the blurred image and modies the CSS lazy-image class
+once loaded.
+
+{% endcomment %}
+
+<div class="image-container">
+  <picture>
+    <source 
+      data-srcset="{{ include.filename }}_w{{ include.size }}.webp" 
+      type="image/webp">
+    <source 
+      data-srcset="{{ include.filename }}_w{{ include.size }}.jpg" 
+      type="image/jpeg">
+    <img 
+      class="lazy-image"
+      src="{{ include.filename }}_blurred.jpg"
+      width="{{ include.size }}"
+    >
+  </picture>
+</div>

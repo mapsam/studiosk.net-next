@@ -3,45 +3,54 @@ title: Small Lots, Big Impacts
 permalink: /projects/small-lots-big-impacts
 layout: project
 date: 2025-06-03 00:00:00
-featured_image: /img/projects/small-lots-big-impacts/Small_Lots2__front_yard_w775.jpg
+featured_image: /img/projects/small-lots-big-impacts/Small_Lots2__front_yard
 
 images:
   - imgs:
-    - /img/projects/small-lots-big-impacts/Small_Lots1__aerial_w1500.jpg
+    - /img/projects/small-lots-big-impacts/Small_Lots1__aerial
   - imgs:
-    - /img/projects/small-lots-big-impacts/Small_Lots2__front_yard_w1500.jpg
+    - /img/projects/small-lots-big-impacts/Small_Lots3__diagram
+    - /img/projects/small-lots-big-impacts/Small_Lots6__path_view
   - imgs:
-    - /img/projects/small-lots-big-impacts/Small_Lots3__diagram_w1500.jpg
+    - /img/projects/small-lots-big-impacts/Small_Lots7__deck_view
   - imgs:
-    - /img/projects/small-lots-big-impacts/Small_Lots4__sectionplan_w1500.jpg
+    - /img/projects/small-lots-big-impacts/Small_Lots4__sectionplan
   - imgs:
-    - /img/projects/small-lots-big-impacts/Small_Lots5__plans_w1500.jpg
-  - imgs:
-    - /img/projects/small-lots-big-impacts/Small_Lots7__deck_view_w1500.jpg
-  - imgs:
-    - /img/projects/small-lots-big-impacts/Small_Lots6__path_view_w1500.jpg
-    - filler
+    - /img/projects/small-lots-big-impacts/Small_Lots5__plans
   
 specs:
   - key: project
-    value: "Small Lots, Big Impacts"
+    value: 
+      - name: "Small Lots, Big Impacts"
   - key: status
-    value: "Competition"
+    value: 
+      - name: "Competition"
   - key: location
-    value: "Los Angeles, California"
+    value: 
+      - name: "Los Angeles, California"
   - key: size
-    value: "4,500 sf"
+    value: 
+      - name: "4,500 sf"
   - key: "Collaborators"
-    value: "<a href='https://www.warrenoffice.com/' target='_blank'>Christopher Warren<br/>(Warren Office of Research &amp; Design)</a>"
+    value:
+      - name: "Christopher Warren (Warren Office of Research & Design)"
+        url: https://www.warrenoffice.com
   - key: "Award"
-    value: "<a href='https://www.smalllots.citylab.ucla.edu/winners' target='_blank'>CityLAB Design Competition winner</a>"
+    value: 
+      - name: "CityLAB Design Competition winner"
+        url: "https://www.smalllots.citylab.ucla.edu/winners"
   - key: "Press"
-    value: |
-      <a href='https://www.fastcompany.com/91341870/l-a-has-24000-tiny-vacant-lots-across-the-city-these-designs-show-creative-ways-to-use-them-for-housing' target='_blank'>Fast Company</a><br/>
-      <a href='https://www.archpaper.com/2025/05/small-lots-big-impact-competition-winners/' target='_blank'>The Architect’s Newspaper</a><br/>
-      <a href='https://archinect.com/news/bustler/10526/solutions-to-la-housing-crisis-honored-at-small-lots-big-impacts-competition' target='_blank'>Archinect</a><br/>
-      <a href='https://www.dezeen.com/2025/06/02/small-lots-big-impact-los-angeles-housing-crisis-competition/' target='_blank'>Dezeen</a><br/>
-      <a href='https://www.realtor.com/advice/buy/starter-home-multifamily-los-angeles/' target='_blank'>Realtor.com</a>
+    value:
+      - name: "Fast Company"
+        url: "https://www.fastcompany.com/91341870/l-a-has-24000-tiny-vacant-lots-across-the-city-these-designs-show-creative-ways-to-use-them-for-housing"
+      - name: "The Architect’s Newspaper"
+        url: "https://www.archpaper.com/2025/05/small-lots-big-impact-competition-winners/"
+      - name: "Archinect"
+        url: "https://archinect.com/news/bustler/10526/solutions-to-la-housing-crisis-honored-at-small-lots-big-impacts-competition"
+      - name: "Dezeen"
+        url: "https://www.dezeen.com/2025/06/02/small-lots-big-impact-los-angeles-housing-crisis-competition/"
+      - name: "Realtor.com"
+        url: "https://www.realtor.com/advice/buy/starter-home-multifamily-los-angeles/"
 ---
 
 **Shared Steps** addresses the “missing middle” housing gap—creating a model for attainable homes between the scale of single-family houses and large apartment complexes that fit on existing single-family lots. The project balances individual identity with community connection, while respecting neighborhood context and providing a framework for varied ownership models.

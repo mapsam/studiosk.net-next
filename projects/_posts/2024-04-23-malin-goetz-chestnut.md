@@ -1,7 +1,7 @@
 ---
 title: |
-  (MALIN + GOETZ)
-  CHESTNUT ST
+  (Malin + Goetz)
+  Chestnut St
 permalink: /projects/malin-goetz-chestnut
 layout: project
 date: 2024-04-23 00:00:00

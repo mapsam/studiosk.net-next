@@ -3,37 +3,51 @@ title: YMCA Oakland
 permalink: /projects/ymca-oakland
 layout: project
 date: 2025-06-02 00:00:00
-featured_image: /img/projects/ymca-oakland/6_YAS_elevation_dwg_w775.jpg
+featured_image: /img/projects/ymca-oakland/hall_view_before
 
-images:
-  - imgs:
-    - /img/projects/ymca-oakland/1_YAS_axonometric_w1500.jpg
-  - imgs:
-    - /img/projects/ymca-oakland/2_hall_view_000_w1500.jpg
-  - imgs:
-    - /img/projects/ymca-oakland/3_middle_classroom_toward_hall_w1500.jpg
-  - imgs:
-    - /img/projects/ymca-oakland/4_middle_classroom_looking_north_000_w1500.jpg
-  - imgs:
-    - /img/projects/ymca-oakland/5_YAS_classroom_plans_w1500.jpg
-  - imgs:
-    - /img/projects/ymca-oakland/6_YAS_elevation_dwg_w1500.jpg
+images: 
+  - imgs: 
+    - /img/projects/ymca-oakland/1_YAS_axonometric
+  - imgs: 
+    - /img/projects/ymca-oakland/2_hall_view_000
+  - imgs: 
+    - /img/projects/ymca-oakland/3_middle_classroom_toward_hall
+  - imgs: 
+    - /img/projects/ymca-oakland/4_middle_classroom_looking_north_000
+  - imgs: 
+    - /img/projects/ymca-oakland/5_YAS_classroom_plans
+  - imgs: 
+    - /img/projects/ymca-oakland/6_YAS_elevation_dwg
 
 specs:
   - key: project
-    value: "YMCA Early Education Center – Oakland"
+    value: 
+      - name: "YMCA Early Education Center – Oakland"
   - key: status
-    value: "In Construction"
+    value: 
+      - name: "In Construction"
   - key: location
-    value: "Oakland, CA"
+    value: 
+      - name: "Oakland, CA"
   - key: size
-    value: "9,850 sf"
+    value: 
+      - name: "9,850 sf"
   - key: Architect
-    value: "Studio Skaggs Kennedy"
+    value: 
+      - name: "Studio Skaggs Kennedy"
   - key: "Consultants"
-    value: "Structural Engineer: Garcia Structural Design; Geotech: Rockridge Geotechnical; MEP Engineer: Point Energy Innovations, Code & Acoustics: Coffman Engineers; Dry Utilities: Power Systems Design; Landscape Architect: Mantle Landscape; Land-use: Allen Matkins; Transportation: Fehr & Peers; Permit Expediter: Milrose Consultants"
+    value: 
+      - name: "Structural Engineer: Garcia Structural Design"
+      - name: "Geotech: Rockridge Geotechnical"
+      - name: "MEP Engineer: Point Energy Innovations, Code & Acoustics: Coffman Engineers"
+      - name: "Dry Utilities: Power Systems Design"
+      - name: "Landscape Architect: Mantle Landscape"
+      - name: "Land-use: Allen Matkins"
+      - name: "Transportation: Fehr & Peers"
+      - name: "Permit Expediter: Milrose Consultants"
   - key: "General Contractor"
-    value: "Pankow Builders"
+    value: 
+      - name: "Pankow Builders"
 ---
 
 Studio Skaggs Kennedy designs a major renovation and interior addition to the M. Robinson Baker YMCA in West Oakland, creating 3 additional early childhood daycare classrooms in an existing gymnasium.

@@ -1,34 +1,36 @@
 ---
 title: studio
-layout: default
+layout: base
 ---
 
-<h1>about</h1>
+<section>
+  <h1>Studio</h1>
+</section>
 
-<div class="pure-g">
-  <div class="pure-u-md-3-4">
-    <p><strong>s_sk</strong> studio skaggs kennedy is a Berkeley-based design practice for architecture and urbanism, licensed in California and Washington state. Maxine Skaggs Kennedy and Sean Kennedy founded their studio in 2015. The practice is run as a studio in which study, research and collaboration are vitally important to the approach of design. Design is seen as a vigorous interaction with place at all scales and with all disciplines.</p>
-    <p><strong>s_sk</strong> seeks collaboration and insight from unlikely places. Architecture is not only about space, light and air but also about politics, culture and ecology. While a timeless art, to remain relevant, architecture must be practiced in a contemporary manner to address current issues. Architecture is an adaptive and transformative process.</p>
-    <p><strong>s_sk</strong> uses design as a way to enhance and add to the natural environment with every project. Sustainability and “green” design are not just checklists but integrated into the overall project process.</p>
-    <p><strong>s_sk</strong> embraces the technological as well as the crafted. The method and process of construction should be tailored not only to client needs and program but also to material availability, local means of production and impact on the greater environment.</p>
-    <p><strong>s_sk</strong> sees design as an action and not just as an object, projects should have a positive effect on their users, their neighbors and the future.</p>
-    <p><strong>s_sk</strong> searches for unknown possibilities, for the creative and for an architecture practiced somewhere between a possible utopia and a pragmatic act.</p>
-  </div>
-</div>
+<section>
+  <p><strong>s_sk</strong> is a Berkeley-based design practice for architecture and urbanism, licensed in California and Washington state. Maxine Skaggs Kennedy and Sean Kennedy founded their studio in 2015. The practice is run as a studio in which study, research and collaboration are vitally important to the approach of design. Design is seen as a vigorous interaction with place at all scales and with all disciplines.</p>
+  <p><strong>s_sk</strong> seeks collaboration and insight from unlikely places. Architecture is not only about space, light and air but also about politics, culture and ecology. While a timeless art, to remain relevant, architecture must be practiced in a contemporary manner to address current issues. Architecture is an adaptive and transformative process.</p>
+  <p><strong>s_sk</strong> uses design as a way to enhance and add to the natural environment with every project. Sustainability and “green” design are not just checklists but integrated into the overall project process.</p>
+  <p><strong>s_sk</strong> embraces the technological as well as the crafted. The method and process of construction should be tailored not only to client needs and program but also to material availability, local means of production and impact on the greater environment.</p>
+  <p><strong>s_sk</strong> sees design as an action and not just as an object, projects should have a positive effect on their users, their neighbors and the future.</p>
+  <p><strong>s_sk</strong> searches for unknown possibilities, for the creative and for an architecture practiced somewhere between a possible utopia and a pragmatic act.</p>
+</section>
 
-<div class="pure-g people">
-  {% for person in site.data.people %}
-  <div class="pure-u-md-1-3 person">
-    <div class="person-image">
-      <img src="{{ site.url }}{{ person.image }}">
-      <img src="{{ site.url }}{{ person.image_hover }}" class="hide">
+<section>
+  <div class="grid people">
+    {% for person in site.data.people %}
+    <div class="person">
+      <section class="person-image">
+        <img src="{{ site.url }}{{ person.image }}">
+        <img src="{{ site.url }}{{ person.image_hover }}" class="hide">
+      </section>
+      <section class="person-content">
+        <h3>{{ person.name }}</h3>
+        {% for a in person.about %}
+          <p>{{a}}</p>
+        {% endfor %}
+      </section>
     </div>
-    <div class="person-content">
-      <h3>{{ person.name }}</h3>
-      {% for a in person.about %}
-        <p>{{a}}</p>
-      {% endfor %}
-    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
+</section>

@@ -1,19 +1,22 @@
 ---
-layout: default
+layout: base
 title: projects
 ---
 
-<section class="projects">
-  <div class="pure-g">
+
+<div class="project-grid">
     {% for p in site.categories.projects %}
-    {% if p.hidden != true %}
-    <div class="pure-u-md-1-3 project">
-      <a class="clip" href="{{site.url}}{{p.url}}">
-        <div class="project-title">{{p.title}}</div>
-        <img class="pure-img" loading="lazy" src="{{site.url}}{{p.featured_image}}">
-      </a>
-    </div>
-    {% endif %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
     {% endfor %}
-  </div>
-</section>
+
+    <!-- row-start / column-start / row-end / column-end -->
+    <!-- <div class="cell" style="grid-area: 1 / 1 / 3 / 8">
+        {% assign p = site.categories.projects | find:"slug", "small-lots-big-impacts" %}
+        <a class="clip" href="{{site.url}}{{p.url}}">
+            <div class="project-title">{{p.title}}</div>
+            <img class="pure-img" loading="lazy" src="{{site.url}}{{p.featured_image}}">
+        </a>
+    </div> -->
+</div>

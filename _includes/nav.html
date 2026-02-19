@@ -1,19 +1,33 @@
-<nav class="pure-menu pure-menu-horizontal">
-  <ul class="pure-menu-list">
-    <li class="pure-menu-item {% if page.url == '/' %}selected{% endif %} badge">
-      <a class="pure-menu-link" href="{{site.url}}/"><strong>s_sk</strong></a>
-    </li>
-    <li class="pure-menu-item {% if page.url == '/news/' %}selected{% endif %}">
-      <a class="pure-menu-link" href="{{site.url}}/news/">news</a>
-    </li>
-    <li class="pure-menu-item {% if page.url == '/projects/' %}selected{% endif %}">
-      <a class="pure-menu-link" href="{{site.url}}/projects">projects</a>
-    </li>
-    <li class="pure-menu-item {% if page.url == '/studio/' %}selected{% endif %}">
-      <a class="pure-menu-link" href="{{site.url}}/studio/">studio</a>
-    </li>
-    <li class="pure-menu-item {% if page.url == '/contact/' %}selected{% endif %}">
-      <a class="pure-menu-link" href="{{site.url}}/contact/">contact</a>
-    </li>
-  </ul>
-</nav>
+<header>
+  <div class="container">
+    <nav>
+      <ul>
+        <li class="logo"><a href="/"><strong>S_SK</strong></a></li>
+      </ul>
+      <ul>
+        <li><small>Studio Skaggs Kennedy</small></li>
+      </ul>
+      <ul>
+        <li><a href="{{site.url}}/projects/" aria-current="{% if page.url == '/projects/' %}page{% endif %}">Projects</a></li>
+        <li><a href="{{site.url}}/studio/" aria-current="{% if page.url == '/studio/' %}page{% endif %}">Studio</a></li>
+        <li><a href="{{site.url}}/contact/" aria-current="{% if page.url == '/contact/' %}page{% endif %}">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const nav = document.querySelector("header");
+
+  if (!nav) return;
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 15) {
+      nav.classList.add("is_fixed");
+    } else {
+      nav.classList.remove("is_fixed");
+    }
+  });
+});
+</script>

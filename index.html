@@ -2,13 +2,15 @@
 name: index
 ---
 
-
 {% include head.html %}
 
+{% include nav.html %}
+
 <div class="splash-container">
-  <img src="/img/projects/waystation/1_WayStation_403PROJECT_w2000.jpg">
-  <img src="/img/projects/moew/31Moderns13_w1500.jpg" class="hide">
-  <img src="/img/projects/fremont-theater/6After_School_in_Community_Theater_w1500.jpg" class="hide">
+  <img src="/img/projects/small-lots-big-impacts/Small_Lots2__front_yard_w2000.jpg">
+  <img src="/img/projects/moew/17A1_fromdeck_w2000.jpg" class="hide">
+  <img src="/img/projects/waystation/7_WayStation_127NEWS_w2000.jpg" class="hide">
+  <img src="/img/projects/native-juice/1-Native-168Sutter-2016-15.jpg" class="hide">
 </div>
 
 <script>
@@ -21,16 +23,6 @@ name: index
     imgs[currImg].className = "hide" 
     num = nextImg;        
   }, 5000);
-</script> 
+</script>
 
-<div class="sticky sticky-top">
-  <div class="container">
-    {% include nav.html %}
-  </div>
-</div>
-
-<div class="sticky sticky-bottom">
-  <div class="container">
-    {% include foot.html %}
-  </div>
-</div>
+{% include foot.html %}

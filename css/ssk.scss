@@ -1,5 +1,5 @@
 ---
---- 
+---
 
 @font-face {
   font-family: 'PPMori';
@@ -26,236 +26,108 @@
 	-webkit-box-sizing: border-box;
 }
 
+:root {
+  --pico-font-family: "PPMori";
+  --pico-nav-element-spacing-vertical: 0;
+}
+
 $gray: #333;
-$light-gray: #c0c0c0;
+$light-gray: #f1f1f1;
 $white: #fff;
+$black: #000;
 $orange: #cc8400;
 
-$breakpoint: 767px;
+$breakpoint: 768px;
 $gutter: 2em;
 $gutter-half: 1em;
 
 body {
-	font-family: 'PPMori';
-  font-size: 0.95em;
-  line-height: 1.3em;
-  color: $gray;
+  font-size: .9em;
+  line-height: 1.5em;
 }
 
-.container {
-  max-width: 1500px;
-  margin: auto;
-  padding: 0 $gutter-half;
-  line-height: 1.5em;
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding-top: 1rem;
+  background-color: $white;
 
-  @media (min-width: $breakpoint) {
-    padding: 0 $gutter;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  h1 {
-    font-size: 2.5em;
-    font-weight: bold;
-    line-height: 1em;
-  }
-
-  a {
-    color: $gray;
-  }
-
-  section {
-    margin: $gutter auto;
+  &.is_fixed {
+    border-bottom: 1px solid $light-gray;
   }
 }
 
 nav {
-  margin-top: $gutter;
-  margin-bottom: 3em;
+  a {
+    &[aria-current="page"] {
+      text-decoration: underline !important;
+    }
+  }
+}
 
-  ul {
-    .pure-menu-item {
-      display: inline-block;
-      margin-right: $gutter-half;
-      background-color: $white;
+.logo {
+  &:hover {
+    a {
+      text-decoration: none !important;
+    }
+  }
+}
 
-      a {
-        text-decoration: none;
-        text-transform: uppercase;
-      }
+a {
+  color: $gray;
+}
 
-      &.badge {
-        background-color: $gray !important;
+.grid-80-20 {
+  @media (min-width: $breakpoint) { // Pico "medium" breakpoint
+    grid-template-columns: 9fr 0.5fr 2.5fr;
+  }
+}
 
-        a {
-          color: $white;
-        }
-      }
-
-      &.selected {
-        a {
-          color: $orange;
-          text-decoration: underline;
-        }
+.project-specs {
+  p {
+    small {
+      strong {
+        letter-spacing: 0.1em;
       }
     }
   }
 }
 
-footer {
-  margin-top: $gutter;
-  margin-bottom: $gutter;
-
-  .footer {
-    div {
-      @media (min-width: $breakpoint) {
-        &:first-child {
-          text-align: left
-        }
-        &:not(:first-child):not(:last-child) { 
-          text-align: center;
-        }
-        &:last-child {
-          text-align: right;
-        }
-      }
-    }
-  }
+.lazy-image {
+  filter: blur(20px);
+  transition: filter 0.5s ease;
 }
 
-.sticky {
-  position: fixed;
-  width: 100%;
-}
-
-.sticky-top {
-  top: 0
-}
-
-.sticky-bottom {
-  bottom: 0
+.lazy-image.loaded {
+  filter: blur(0);
 }
 
 .splash-container {
   position: absolute;
+  top: 0;
   width: 100%;
   height: 100%;
   background-color: #c0c0c0;
   overflow: hidden;
 
   img {
+    position: absolute; 
+    inset: 0;
+    width: 100%;
+    height: 100%;
+
     object-fit: cover;
     object-position: center;
     
     width: 100%;
     height: 100%;
-  }
-}
 
-.specifications {
-  font-size: 0.8em;
-  line-height: 1.5em;
-  color: $gray;
-  
-  p {
-    letter-spacing: 0.05em;
-  }
-}
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
 
-$project-height: 400px;
-.projects {
-  .project {
-    height: $project-height;
-    padding-bottom: $gutter;
-    
-    @media (min-width: $breakpoint) {
-      // 4, 7, 10, ... (lefts)
-      &:nth-child(3n+4), &:first-child {
-        padding-right: $gutter-half;
-      }
-
-      // 3, 6, 9, ... (rights)
-      &:nth-child(3n+3) {
-        padding-left: $gutter-half;
-      }
-
-      // 2, 5, 8, ... (middles)
-      &:nth-child(3n+2) {
-        padding-left: $gutter-half;
-        padding-right: $gutter-half;
-      }
-    }
-    
-    .clip {
-      overflow: hidden;
-      width: 100%;
-      height: 100%;
-      display: block;
-      position: relative;
-
-      .project-title {
-        opacity: 0;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        padding: $gutter-half;
-        color: white;
-        transition: all 0.3s ease;
-        text-transform: uppercase;
-        font-size: 1.1em;
-        letter-spacing: 0.06em;
-      }
-
-      &:hover {
-        .project-title {
-          opacity: 1;
-          background-color: rgba(0, 0, 0, 0.6)
-        }
-      }
-
-      img {
-        object-fit: cover;
-        min-width: 100%;
-        min-height: 100%;
-      }
-
-      span {
-        display: block;
-      }
-    }
-  }
-}
-
-.images {
-  .image-container {
-    .image {
-      padding-bottom: $gutter;
-
-      @media (min-width: $breakpoint) {
-        &:first-child {
-          padding-right: $gutter-half;
-        }
-
-        &:not(:first-child):not(:last-child) {
-          padding-left: $gutter-half;
-          padding-right: $gutter-half;
-        }
-
-        &:last-child {
-          padding-left: $gutter-half;
-        }   
-        
-        &:only-child {
-          padding-right: 0em;
-          padding-left: 0em;
-        }
-      }
-      
-      img {
-        min-width: 100%;
-      }
+    &.hide {
+      opacity: 0;
     }
   }
 }
@@ -310,10 +182,56 @@ $project-height: 400px;
   }
 }
 
-.hide {
-  display: none;
-}
+.project-grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: $gutter-half;
 
-.invisible {
-  visibility: hidden;
+  @media (min-width: $breakpoint) { // Pico "medium" breakpoint
+    display: grid;
+    margin: 0 auto;
+  }
+
+  .cell {
+    aspect-ratio: 1 / 1;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-decoration: none;
+    color: white;
+    position: relative;
+    overflow: hidden;
+
+    display: block;
+
+    .label {
+      position: absolute;
+      font-size: 2em;
+      line-height: 1.3em;
+      padding: $gutter-half;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0);
+      transition: background 0.3s ease;
+    }
+
+    &:hover {
+      &::before {
+        background: rgba(0, 0, 0, 0.6);
+      }
+
+      .label {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  }
 }

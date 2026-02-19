@@ -15,7 +15,7 @@ specs:
   - key: size
     value: "800 sf"
   - key: team
-    value: "Contractor: Elliot Build; Cabinet Maker: Butterworth Designs; Photography: Brian McCloud"
+    value: "Contractor: Elliot Build<br />Cabinet Maker: Butterworth Designs<br />Photography: Brian McCloud"
 
 images:
   - imgs: 
