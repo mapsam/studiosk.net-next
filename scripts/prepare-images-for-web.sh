@@ -1,16 +1,14 @@
 ssk_image () {
   INPUT="$1"
-  OUTPUT_DIR="out"
 
   if [ -z "$INPUT" ]; then
     echo "Usage: ssk_image <file-or-directory>"
     return 1
   fi
 
-  mkdir -p "$OUTPUT_DIR"
-
   process_file () {
     local filepath="$1"
+    local dirpath="$2"
 
     echo "Converting image: $filepath"
 
@@ -20,38 +18,52 @@ ssk_image () {
     FILENAME_NO_SPACES="${FILENAME_RAW// /_}"
     FILENAME_ALPHANUMERIC="${FILENAME_NO_SPACES//[^_[:alnum:]]/}"
 
-    for size in 2000 1500 775; do
-      # JPEG version
-      magick "$filepath" -resize "${size}x" \
-        "$OUTPUT_DIR/${FILENAME_ALPHANUMERIC}_w${size}.jpg"
+    local output_dir="$dirpath/out"
+    mkdir -p "$output_dir"
 
-      # WebP version
-      magick "$filepath" -resize "${size}x" \
-        "$OUTPUT_DIR/${FILENAME_ALPHANUMERIC}_w${size}.webp"
+    for size in 2000 1500 775; do
+      # JPEG version (good fallback format)
+      magick "$filepath" \
+        -resize "${size}x" \
+        -quality 85 \
+        "$output_dir/${FILENAME_ALPHANUMERIC}_w${size}.jpg"
+
+      # WebP version (smaller, modern format)
+      magick "$filepath" \
+        -resize "${size}x" \
+        -quality 80 \
+        "$output_dir/${FILENAME_ALPHANUMERIC}_w${size}.webp"
     done 
 
-    # Blurred variant (JPEG)
-    magick "$filepath" -scale 2% -blur 0x2.5 -resize 1000% \
-      "$OUTPUT_DIR/${FILENAME_ALPHANUMERIC}_blurred.jpg"
+    # Blurred placeholder (JPEG)
+    magick "$filepath" \
+      -resize 40x \
+      -blur 0x8 \
+      "$output_dir/${FILENAME_ALPHANUMERIC}_blurred.jpg"
 
-    # Blurred variant (WebP)
-    magick "$filepath" -scale 2% -blur 0x2.5 -resize 1000% \
-      "$OUTPUT_DIR/${FILENAME_ALPHANUMERIC}_blurred.webp"
+    # Blurred placeholder (WebP)
+    magick "$filepath" \
+      -resize 40x \
+      -blur 0x8 \
+      "$output_dir/${FILENAME_ALPHANUMERIC}_blurred.webp"
   }
 
   if [ -d "$INPUT" ]; then
-    # Process directory recursively
     find "$INPUT" -type f \( \
       -iname "*.jpg" -o \
       -iname "*.jpeg" -o \
       -iname "*.png" -o \
-      -iname "*.webp" \
-    \) ! -path "*/$OUTPUT_DIR/*" | while read -r file; do
-      process_file "$file"
+      -iname "*.webp" -o \
+      -iname "*.tif" -o \
+      -iname "*.tiff" \
+    \) ! -path "*/out/*" | while read -r file; do
+      dirpath=$(dirname "$file")
+      process_file "$file" "$dirpath"
     done
 
   elif [ -f "$INPUT" ]; then
-    process_file "$INPUT"
+    dirpath=$(dirname "$INPUT")
+    process_file "$INPUT" "$dirpath"
 
   else
     echo "Error: '$INPUT' is not a valid file or directory."

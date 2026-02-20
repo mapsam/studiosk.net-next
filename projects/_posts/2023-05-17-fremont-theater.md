@@ -3,45 +3,54 @@ title: Fremont Theater Adaptive Reuse
 permalink: /projects/fremont-theater
 layout: project
 date: 2023-05-17 00:00:00
-featured_image: /img/projects/fremont-theater/4Section_w775.jpg
+featured_image: /img/projects/fremont-theater/4Section
 
 images:
-  - imgs: 
-    - img/projects/fremont-theater/1Street_View_w1500.jpg
-  - imgs: 
-    - img/projects/fremont-theater/2Entry_View_w1500.jpg
-  - imgs: 
-    - img/projects/fremont-theater/3Public_Pathway_w1500.jpg
-  - imgs: 
-    - img/projects/fremont-theater/4Section_w1500.jpg
-  - imgs: 
-    - img/projects/fremont-theater/5L2_Bar3_w1500.jpg
-  - imgs: 
-    - img/projects/fremont-theater/6After_School_in_Community_Theater_w1500.jpg
-  - imgs: 
-    - img/projects/fremont-theater/7Concert_in_Community_Theater_w1500.jpg
-  - imgs: 
-    - img/projects/fremont-theater/8Speak_Easy_w1500.jpg
-  - imgs: 
-    - img/projects/fremont-theater/9EXPLODED_VIEW_w1500.jpg
-  - imgs: 
-    - img/projects/fremont-theater/10Future_Use_w1500.jpg
-  - imgs: 
-    - img/projects/fremont-theater/11Project_Timeline_w1500.jpg
+  - imgs:
+    - /img/projects/fremont-theater/10Future_Use
+  - imgs:
+    - /img/projects/fremont-theater/11Project_Timeline
+  - imgs:
+    - /img/projects/fremont-theater/1Street_View
+  - imgs:
+    - /img/projects/fremont-theater/2Entry_View
+  - imgs:
+    - /img/projects/fremont-theater/3Public_Pathway
+  - imgs:
+    - /img/projects/fremont-theater/5L2_Bar3
+  - imgs:
+    - /img/projects/fremont-theater/6After_School_in_Community_Theater
+  - imgs:
+    - /img/projects/fremont-theater/7Concert_in_Community_Theater
+  - imgs:
+    - /img/projects/fremont-theater/8Speak_Easy
+  - imgs:
+    - /img/projects/fremont-theater/9EXPLODED_VIEW
+  - imgs:
+    - /img/projects/fremont-theater/FREconstruction_photo
 
 specs:
   - key: project
-    value: "Fremont Multi-use"
+    value: 
+      - name: "Fremont Multi-use"
   - key: status
-    value: "In Construction"
+    value: 
+      - name: "In Construction"
   - key: location
-    value: "Fremont, CA"
+    value: 
+      - name: "Fremont, CA"
   - key: size
-    value: "8,000 sf"
+    value: 
+      - name: "8,000 sf"
   - key: team
-    value: "Civil Engineer: Lea & Braze Engineering; Structural Engineer: Treat Structural Engineering ; MEP Engineer: ACIES Engineering; Real Estate Consulting: Fernando Cuebas"
+    value: 
+      - name: "Civil Engineer: Lea & Braze Engineering"
+      - name: "Structural Engineer: Treat Structural Engineering "
+      - name: "MEP Engineer: ACIES Engineering"
+      - name: "Real Estate Consulting: Fernando Cuebas"
   - key: award
-    value: "AIA San Francisco Design Awards 2023, category Unbuilt Design: Urban Design Concentration: Merit Award"
+    value: 
+      - name: "AIA San Francisco Design Awards 2023, category Unbuilt Design: Urban Design Concentration: Merit Award"
 ---
 
 The long vacant Fremont Theater in the Centerville neighborhood is being adapted to be reused as a multi-functional event space. The project draws on the history of the property as an entertainment and hospitality complex as the foundation to project a future accommodating a more diverse and varied collection of uses. We see the site as having a mix of the historical, the artful, and the community to give back to the public realm of the Centerville area of Fremont.
