@@ -3,27 +3,52 @@ title: Peacock Pool House
 permalink: /projects/peacock-pool-house
 layout: project
 date: 2018-02-17 23:47:52
-featured_image: /img/projects/pph/PPH_new_pool_w775.jpg
+featured_image: /img/projects/peacock/PPH_new_pool
 
 specs:
   - key: project
-    value: "Peacock Pool House"
+    value:
+      - name: "Peacock Pool House"
   - key: status
-    value: "Built"
+    value:
+      - name: "Built"
   - key: location
-    value: "San Rafael, CA"
+    value:
+      - name: "San Rafael, CA"
   - key: size
-    value: "4,000 sf"
+    value:
+      - name: "4,000 sf"
   - key: team
-    value: "Contractor: Jungsten Construction"
+    value:
+      - name: "Contractor: Jungsten Construction"
 
 images:
-
   - imgs: 
-    - img/projects/pph/PPH_garden_path_w1500.jpg
+    - /img/projects/peacock/PPH_garden_path
+  - imgs:
+    - /img/projects/peacock/IMG_5145
+    - /img/projects/peacock/IMG_5150
   - imgs: 
-    - img/projects/pph/PPH_kitchen_to_lagoon__w1500.jpg
-    - img/projects/pph/PPH_new_pool_w1500.jpg    
+    - /img/projects/peacock/PPH_kitchen_to_lagoon_
+    - /img/projects/peacock/IMG_5143
+  - imgs:
+    - /img/projects/peacock/IMG_E5129
+  - imgs:
+    - /img/projects/peacock/IMG_5133
+  - imgs:
+    - /img/projects/peacock/IMG_E5128
+  
+  - imgs:
+    - /img/projects/peacock/IMG_E5124
+  - imgs:
+    - /img/projects/peacock/IMG_5155
+    - /img/projects/peacock/IMG_5158
+  
 ---
 
-The Peacock Pool House project set between the San Francisco Bay and Peacock Gap lagoon in Marin County, reconceives the typical underutilized suburban backyard landscape into an active and entertaining space for a large family. The addition of a pool, sundeck and small lawn allows for daytime play and relaxation. Remodeling of the deck and building an outdoor kitchen allows for large group outdoor dining and entertaining. The addition of a changing room with full bath and sun arbor over a lounge seating area completes the activation of this space into a day and night place to enjoy the temperate California weather and sun filled days.
+From Bay to Lagoon the Peacock Family Kitchen combines serious cooking, family room hangout, entertaining and outdoor
+spaces into a large gathering space which better reflects the clients lifestyle – a place for family and friends.
+
+The entry portal and the existing bay windows at the front of the house were redesigned to create built in storage kitchen eating area while expanding windows and access to light and views of the San Francisco Bay. At the rear of the house, facing the Peacock Gap Lagoon, large pocketing glass doors were added to remove barriers between interior and exterior deck, outdoor cooking and pool scape.
+
+The new kitchen includes generous storage and beautiful marble countertops. The kitchen island serves as the home’s modern hearth – part food prep, buffet, and conversation piece. Behind the kitchen area is a mudroom and storage space which partia lly conceals the entrance to the garage and powder room area.
