@@ -6,6 +6,7 @@ permalink: /projects/tesla-showroom-los-angeles
 layout: project
 date: 2003-11-17 00:20:54
 featured_image: /img/2014/11/TESLA-featured.jpg
+hidden: true
 
 specs:
   - key: project

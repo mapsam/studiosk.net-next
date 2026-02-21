@@ -4,6 +4,7 @@ permalink: /projects/mill-valley-residence
 layout: project
 date: 2007-07-15 05:13:59
 featured_image: /img/2017/10/mill-valley-featured.jpg
+hidden: true
 
 specs:
   - key: project

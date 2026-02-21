@@ -4,6 +4,7 @@ permalink: /projects/palo-alto-residence
 layout: project
 date: 2006-10-13 16:58:10
 featured_image: /img/2014/10/FH-overview.jpg
+hidden: true
 
 specs:
   - key: project

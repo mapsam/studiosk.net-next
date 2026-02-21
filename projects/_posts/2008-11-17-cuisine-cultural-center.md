@@ -4,6 +4,7 @@ permalink: /projects/cuisine-cultural-center
 layout: project
 date: 2008-11-17 00:07:16
 featured_image: /img/2014/11/REDBANK-featured.jpg
+hidden: true
 
 specs:
   - key: project

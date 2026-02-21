@@ -4,6 +4,7 @@ permalink: /projects/west-berkeley-house
 layout: project
 date: 2007-08-02 17:58:39
 featured_image: /img/2014/08/bataan-timelapse.png
+hidden: true
 
 specs:
   - key: project

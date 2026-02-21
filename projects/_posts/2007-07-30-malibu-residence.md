@@ -4,6 +4,7 @@ permalink: /projects/malibu-residence
 layout: project
 date: 2007-07-30 23:28:08
 featured_image: /img/2002/01/malibu-featured2.jpg
+hidden: true
 
 specs:
   - key: project

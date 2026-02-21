@@ -4,6 +4,7 @@ permalink: /projects/gold-country-residence
 layout: project
 date: 2002-01-30 23:04:16
 featured_image: /img/2015/01/gold_featured.jpg
+hidden: true
 
 specs:
   - key: project

@@ -6,6 +6,7 @@ permalink: /projects/barbara-lee-senior-center
 layout: project
 date: 2002-01-30 22:45:24
 featured_image: /img/2015/01/milpitas_featured.jpg
+hidden: true
 
 specs:
   - key: project

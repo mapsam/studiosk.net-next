@@ -4,6 +4,7 @@ permalink: /projects/castro-valley-library
 layout: project
 date: 2002-10-02 17:16:30
 featured_image: /img/2014/10/CV-overview.jpg
+hidden: true
 
 specs:
   - key: project

@@ -1,0 +1,20 @@
+---
+layout: base
+title: archive
+---
+
+
+
+{% for p in site.categories.projects %}
+<section class="grid">
+    <div><img src="{{site.url}}{{p.featured_image}}_w1500.webp" style="max-width: 100%"></div>
+    <div>
+        <p>title: {{p.title}}</p>
+        <p><small>date: {{ p.date | date: "%Y-%m-%d" }}</small></p>
+        <p><small>slug: <code>{{ p.slug }}</code></small></p>
+        <p><small>url: <a href="{{ p.permalink }}">{{ p.permalink }}</a></small></p>
+    </div>
+    <div></div>
+    <div></div>
+</section>
+{% endfor %}

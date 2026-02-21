@@ -4,6 +4,7 @@ permalink: /projects/valley-hi-library
 layout: project
 date: 2007-06-01 16:46:45
 featured_image: /img/2014/10/VH-overview.jpg
+hidden: true
 
 specs:
   - key: project

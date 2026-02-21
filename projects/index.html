@@ -5,20 +5,131 @@ title: projects
 
 
 <div class="project-grid">
-    {% for p in site.categories.projects %}
-    {% if p.hidden != true %}
-    <a href="{{site.url}}{{p.url}}" class="cell" style="background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+    <!-- row-start / column-start / row-end / column-end -->
+    {% assign p = site.categories.projects | find:"slug", "small-lots-big-impacts" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 1 / 1 / span 4 / span 7; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
+
+    {% assign p = site.categories.projects | find:"slug", "west-berkely-housing" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 1 / 8 / span 3 / -1; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+
+    {% assign p = site.categories.projects | find:"slug", "nsb" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 4 / 8 / span 4 / -1; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+
+    {% assign p = site.categories.projects | find:"slug", "malin-goetz-chestnut" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 5 / 1 / span 4 / span 4; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a> 
+    
+    {% assign p = site.categories.projects | find:"slug", "fremont-theater" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 5 / 5 / span 3 / span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+
+    {% assign p = site.categories.projects | find:"slug", "waystation" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 8 / 5 / span 3 / -1; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+
+    {% assign p = site.categories.projects | find:"slug", "rmr" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 9 / 1 / span 3 / span 4; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+
+    {% assign p = site.categories.projects | find:"slug", "malin-goetz-hayes" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 11 / 5 / span 3 / span 4; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+
+    {% assign p = site.categories.projects | find:"slug", "nsb" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 11 / 9 / span 3 / span 4; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+
+    {% assign p = site.categories.projects | find:"slug", "lar" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 12 / 1 / span 2 / span 4; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+</div>
+
+<section></section>
+
+<div class="project-grid">
+    {% assign p = site.categories.projects | find:"slug", "ymca-oakland" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+    {% assign p = site.categories.projects | find:"slug", "moderns-on-eames-walk" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+    {% assign p = site.categories.projects | find:"slug", "mountain-view-house-pavilion" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+    {% assign p = site.categories.projects | find:"slug", "peacock-pool-house" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+    {% assign p = site.categories.projects | find:"slug", "berkeley-open-kitchen" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+    {% assign p = site.categories.projects | find:"slug", "meka-concord" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+    {% assign p = site.categories.projects | find:"slug", "m20-berlin" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+    {% assign p = site.categories.projects | find:"slug", "apc-jackson-square" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+    {% assign p = site.categories.projects | find:"slug", "eichler-2" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+    {% assign p = site.categories.projects | find:"slug", "native-juice" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+    {% assign p = site.categories.projects | find:"slug", "guggenheim-helsinki" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+    {% assign p = site.categories.projects | find:"slug", "belle-haven-bike-workshop" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+    {% assign p = site.categories.projects | find:"slug", "grid-prototype" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+    {% assign p = site.categories.projects | find:"slug", "andys-candy-apothecary" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+    {% assign p = site.categories.projects | find:"slug", "ncca" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+    {% assign p = site.categories.projects | find:"slug", "plant-organic-restaurant-burlingame" %}
+    <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
+        <span class="label">{{p.title}}</span>
+    </a>
+</div>
+
+<!-- <ul>
+    {% for p in site.categories.projects %}
+    {% if p.hidden != true %}
+    <li><code>{{ p.slug }}</code> - <a href="">{{p.title}}</a></li>
     {% endif %}
     {% endfor %}
-
-    <!-- row-start / column-start / row-end / column-end -->
-    <!-- <div class="cell" style="grid-area: 1 / 1 / 3 / 8">
-        {% assign p = site.categories.projects | find:"slug", "small-lots-big-impacts" %}
-        <a class="clip" href="{{site.url}}{{p.url}}">
-            <div class="project-title">{{p.title}}</div>
-            <img class="pure-img" loading="lazy" src="{{site.url}}{{p.featured_image}}">
-        </a>
-    </div> -->
-</div>
+</ul> -->
