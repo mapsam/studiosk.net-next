@@ -6,52 +6,52 @@ title: projects
 
 <div class="project-grid">
     <!-- row-start / column-start / row-end / column-end -->
-    {% assign p = site.categories.projects | find:"slug", "small-lots-big-impacts" %}
+    {% assign p = site.categories.projects | where:"slug","small-lots-big-impacts" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 1 / 1 / span 4 / span 7; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
 
-    {% assign p = site.categories.projects | find:"slug", "west-berkely-housing" %}
+    {% assign p = site.categories.projects | where:"slug","west-berkely-housing" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 1 / 8 / span 3 / -1; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
 
-    {% assign p = site.categories.projects | find:"slug", "nsb" %}
+    {% assign p = site.categories.projects | where:"slug","nsb" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 4 / 8 / span 4 / -1; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
 
-    {% assign p = site.categories.projects | find:"slug", "malin-goetz-chestnut" %}
+    {% assign p = site.categories.projects | where:"slug","malin-goetz-chestnut" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 5 / 1 / span 4 / span 4; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a> 
     
-    {% assign p = site.categories.projects | find:"slug", "fremont-theater" %}
+    {% assign p = site.categories.projects | where:"slug","fremont-theater" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 5 / 5 / span 3 / span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
 
-    {% assign p = site.categories.projects | find:"slug", "waystation" %}
+    {% assign p = site.categories.projects | where:"slug","waystation" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 8 / 5 / span 3 / -1; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
 
-    {% assign p = site.categories.projects | find:"slug", "rmr" %}
+    {% assign p = site.categories.projects | where:"slug","rmr" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 9 / 1 / span 3 / span 4; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
 
-    {% assign p = site.categories.projects | find:"slug", "malin-goetz-hayes" %}
+    {% assign p = site.categories.projects | where:"slug","malin-goetz-hayes" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 11 / 5 / span 3 / span 4; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
 
-    {% assign p = site.categories.projects | find:"slug", "nsb" %}
+    {% assign p = site.categories.projects | where:"slug","nsb" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 11 / 9 / span 3 / span 4; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
 
-    {% assign p = site.categories.projects | find:"slug", "lar" %}
+    {% assign p = site.categories.projects | where:"slug","lar" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-area: 12 / 1 / span 2 / span 4; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
@@ -60,67 +60,67 @@ title: projects
 <section></section>
 
 <div class="project-grid">
-    {% assign p = site.categories.projects | find:"slug", "ymca-oakland" %}
+    {% assign p = site.categories.projects | where:"slug","ymca-oakland" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
-    {% assign p = site.categories.projects | find:"slug", "moderns-on-eames-walk" %}
+    {% assign p = site.categories.projects | where:"slug","moderns-on-eames-walk" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
-    {% assign p = site.categories.projects | find:"slug", "mountain-view-house-pavilion" %}
+    {% assign p = site.categories.projects | where:"slug","mountain-view-house-pavilion" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
-    {% assign p = site.categories.projects | find:"slug", "peacock-pool-house" %}
+    {% assign p = site.categories.projects | where:"slug","peacock-pool-house" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
-    {% assign p = site.categories.projects | find:"slug", "berkeley-open-kitchen" %}
+    {% assign p = site.categories.projects | where:"slug","berkeley-open-kitchen" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
-    {% assign p = site.categories.projects | find:"slug", "meka-concord" %}
+    {% assign p = site.categories.projects | where:"slug","meka-concord" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
-    {% assign p = site.categories.projects | find:"slug", "m20-berlin" %}
+    {% assign p = site.categories.projects | where:"slug","m20-berlin" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
-    {% assign p = site.categories.projects | find:"slug", "apc-jackson-square" %}
+    {% assign p = site.categories.projects | where:"slug","apc-jackson-square" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
-    {% assign p = site.categories.projects | find:"slug", "eichler-2" %}
+    {% assign p = site.categories.projects | where:"slug","eichler-2" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
-    {% assign p = site.categories.projects | find:"slug", "native-juice" %}
+    {% assign p = site.categories.projects | where:"slug","native-juice" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
-    {% assign p = site.categories.projects | find:"slug", "guggenheim-helsinki" %}
+    {% assign p = site.categories.projects | where:"slug","guggenheim-helsinki" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
-    {% assign p = site.categories.projects | find:"slug", "belle-haven-bike-workshop" %}
+    {% assign p = site.categories.projects | where:"slug","belle-haven-bike-workshop" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
-    {% assign p = site.categories.projects | find:"slug", "grid-prototype" %}
+    {% assign p = site.categories.projects | where:"slug","grid-prototype" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
-    {% assign p = site.categories.projects | find:"slug", "andys-candy-apothecary" %}
+    {% assign p = site.categories.projects | where:"slug","andys-candy-apothecary" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
-    {% assign p = site.categories.projects | find:"slug", "ncca" %}
+    {% assign p = site.categories.projects | where:"slug","ncca" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
-    {% assign p = site.categories.projects | find:"slug", "plant-organic-restaurant-burlingame" %}
+    {% assign p = site.categories.projects | where:"slug","plant-organic-restaurant-burlingame" | first %}
     <a href="{{site.url}}{{p.url}}" class="cell" style="grid-column: span 3; grid-row: span 3; background-image: url({{site.url}}{{p.featured_image}}_w1500.webp)">
         <span class="label">{{p.title}}</span>
     </a>
