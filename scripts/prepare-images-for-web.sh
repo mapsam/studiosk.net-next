@@ -25,13 +25,13 @@ ssk_image () {
       # JPEG version (good fallback format)
       magick "$filepath" \
         -resize "${size}x" \
-        -quality 85 \
+        -quality 100 \
         "$output_dir/${FILENAME_ALPHANUMERIC}_w${size}.jpg"
 
       # WebP version (smaller, modern format)
       magick "$filepath" \
         -resize "${size}x" \
-        -quality 80 \
+        -quality 100 \
         "$output_dir/${FILENAME_ALPHANUMERIC}_w${size}.webp"
     done 
 

@@ -3,45 +3,33 @@ title: MEKA Concord
 permalink: /projects/meka-concord
 layout: project
 date: 2017-09-15 04:00:04
-featured_image: /img/projects/mco/MCO_model_w1500.jpg
-
-# img/projects/mco/1_ViewFromCreekcrop_blurred.jpg
-# img/projects/mco/1_ViewFromCreekcrop_w775.jpg
-# img/projects/mco/1_ViewFromCreekcrop_w1500.jpg
-# img/projects/mco/1_ViewFromCreekcrop_w2000.jpg
-# img/projects/mco/2_ViewFromDrivewaycrop_blurred.jpg
-# img/projects/mco/2_ViewFromDrivewaycrop_w775.jpg
-# img/projects/mco/2_ViewFromDrivewaycrop_w1500.jpg
-# img/projects/mco/2_ViewFromDrivewaycrop_w2000.jpg
-# img/projects/mco/3_ViewAerialcrop_blurred.jpg
-# img/projects/mco/3_ViewAerialcrop_w775.jpg
-# img/projects/mco/3_ViewAerialcrop_w1500.jpg
-# img/projects/mco/3_ViewAerialcrop_w2000.jpg
-# img/projects/mco/MCO_model_blurred.jpg
-# img/projects/mco/MCO_model_w775.jpg
-# img/projects/mco/MCO_model_w1500.jpg
-# img/projects/mco/MCO_model_w2000.jpg
-
-
-specs:
-  - key: project
-    value: "MEKA Concord"
-  - key: status
-    value: "Design Development"
-  - key: location
-    value: "Concord, CA"
-  - key: size
-    value: "3,000 sf"
-  - key: modular fabricator
-    value: "MEKA"
+featured_image: /img/projects/mco/MCO_model
 
 images:
   - imgs:
-    - img/projects/mco/1_ViewFromCreekcrop_w1500.jpg
+    - /img/projects/mco/1_ViewFromCreekcrop
   - imgs:
-    - img/projects/mco/2_ViewFromDrivewaycrop_w1500.jpg
+    - /img/projects/mco/2_ViewFromDrivewaycrop
   - imgs:
-    - img/projects/mco/3_ViewAerialcrop_w1500.jpg
+    - /img/projects/mco/3_ViewAerialcrop
+
+specs:
+  - key: project
+    value: 
+      - name: "MEKA Concord"
+  - key: status
+    value: 
+      - name: "Design Development"
+  - key: location
+    value: 
+      - name: "Concord, CA"
+  - key: size
+    value: 
+      - name: "3,000 sf"
+  - key: modular fabricator
+    value: 
+      - name: "MEKA"
+
 ---
 
 Adding a duplex to an existing single family house site, the project aims to add density while maintaining the overall wooded and open quality of the site.
