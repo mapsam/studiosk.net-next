@@ -3,35 +3,44 @@ title: Guggenheim Helsinki
 permalink: /projects/guggenheim-helsinki
 layout: project
 date: 2015-07-12 21:25:01
-featured_image: /img/2015/07/HELSINKI_featured_full2.jpg
+featured_image: /img/projects/helsinki/HELSINKI_0
 
 specs:
   - key: project
-    value: "Guggenheim Helsinki"
+    value: 
+      - name: "Guggenheim Helsinki"
   - key: status
-    value: "Competition"
+    value: 
+      - name: "Competition"
   - key: location
-    value: "Helsinki, Finland"
+    value: 
+      - name: "Helsinki, Finland"
   - key: size
-    value: "120,000 sf"
+    value: 
+      - name: "120,000 sf"
   - key: collaborators
-    value: "Christopher Warren, Carmelia Chiang, Vera Tay (Warren Office of Research & Design); Karly Stephens,  Pedram Farashbandi (S_SK); Brennan Cox & Sara Peschel (Landscape – Groundworks Office); Derrick Roorda   (Structural – Buro Happold); Heather Libonati (Lighting – Luminesce Design)."
+    value: 
+      - name: "Christopher Warren, Carmelia Chiang, Vera Tay (Warren Office of Research & Design)"
+      - name: "Karly Stephens, Pedram Farashbandi (S_SK)"
+      - name: "Landscape: Brennan Cox & Sara Peschel (Groundworks Office)"
+      - name: "Structural: Derrick Roorda (Buro Happold)"
+      - name: "Lighting: Heather Libonati (Luminesce Design)"
 
 images:
-  - imgs: 
-    - /img/2015/07/HELSINKI_1.jpg
-  - imgs: 
-    - /img/2015/07/HELSINKI_2.jpg
-  - imgs: 
-    - /img/2015/07/HELSINKI_3.jpg
-  - imgs: 
-    - /img/2015/07/HELSINKI_4.jpg
-  - imgs: 
-    - /img/2015/07/HELSINKI_5.jpg
-  - imgs: 
-    - /img/2015/07/HELSINKI_6.jpg
-  - imgs: 
-    - /img/2015/07/HELSINKI_7.jpg
+  - imgs:  
+    - /img/projects/helsinki/HELSINKI_1night_market
+  - imgs:  
+    - /img/projects/helsinki/HELSINKI_2strategy
+  - imgs:  
+    - /img/projects/helsinki/HELSINKI_3day_market
+  - imgs:  
+    - /img/projects/helsinki/HELSINKI_4interior
+  - imgs:  
+    - /img/projects/helsinki/HELSINKI_5section
+  - imgs:  
+    - /img/projects/helsinki/HELSINKI_6day_harbor
+  - imgs:  
+    - /img/projects/helsinki/HELSINKI_7shell_diagram
 ---
 
 Continuing in the exploratory spirit of Nordic Modernism, the museum is envisioned as a public place to celebrate art in the northern light of Finland.

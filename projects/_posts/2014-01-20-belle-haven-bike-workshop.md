@@ -3,7 +3,7 @@ title: Belle Haven Bike Workshop
 permalink: /projects/belle-haven-bike-workshop
 layout: project
 date: 2014-01-20 00:00:27
-featured_image: /img/2014/01/boysgirls_featured.jpg
+featured_image: /img/projects/bhb/BHB_renderings_int_workshop
 
 specs:
   - key: project
@@ -18,20 +18,18 @@ specs:
     value: "IDEO, Facebook Bike Hub, Limelab, Silicon Valley Bicycle Coalition"
 
 images:
-  - imgs: 
-    - /img/2014/01/boysgirls_1.jpg
-  - imgs: 
-    - /img/2014/01/boysgirls_2.jpg
-  - imgs: 
-    - /img/2014/01/boysgirls_3.jpg
-  - imgs: 
-    - /img/2014/01/boysgirls_4.jpg
-  - imgs: 
-    - /img/2014/07/bg-closed.png
-  - imgs: 
-    - /img/2014/07/bg-open.png
-  - imgs: 
-    - /img/2014/01/bg-sketch-models.png
+  - imgs:  
+    - /img/projects/bhb/BG_closed_view
+    - /img/projects/bhb/BG_open_view
+  - imgs:  
+    - /img/projects/bhb/BG_sketch_models
+    - /img/projects/bhb/BG_sketch_models2
+  - imgs:  
+    - /img/projects/bhb/BHB_renderings_bicyclists
+  - imgs:  
+    - /img/projects/bhb/BHB_renderings_night
+  - imgs:  
+    - /img/projects/bhb/BHB_renderings_pump_track
 ---
 
 The Belle Haven Bike Shop is a youth run bike repair and training project built from three repurposed shipping containers for the Belle Haven chapter of the Boys and Girls Clubs of the Peninsula. The bike shop will serve as both a community gathering space and an employment pathway for teens to jobs in local bike shops, transportation departments at local technology partners, and as certified instructors prepared to teach bicycle safety to both children and adults.
