@@ -17,7 +17,7 @@ once loaded.
 
 {% endcomment %}
 
-{% assign dims = site.data.image_dimensions[include.filename] %}
+{% assign image_data = site.data.image_dimensions[include.filename] %}
 
 <div class="image-container">
   <picture>
@@ -29,9 +29,9 @@ once loaded.
       type="image/jpeg">
     <img 
       class="lazy-image"
-      src="{{ include.filename }}_blurred.jpg"
-      width="{{ dims.width }}"
-      height="{{ dims.height }}"
+      src="{{ image_data.blur_base64 }}"
+      width="{{ image_data.width }}"
+      height="{{ image_data.height }}"
       loading="lazy"
       decoding="async"
     >
